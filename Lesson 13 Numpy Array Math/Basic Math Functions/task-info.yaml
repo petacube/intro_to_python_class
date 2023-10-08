@@ -1,0 +1,35 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 54
+        length: 4
+        placeholder_text: pass
+        initial_state:
+          length: 4
+          offset: 54
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: djLIAJZsxOjRt8II5CJX6QPSPrZkSO8/iuG5RgKVT24PZdgYZH8zf9HUAMY8jmjk
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg4bhIR/yFceLcIn4RaOfKf845rMqAPUjh/Wa1ze8OzWk12d1PhRw+z6XsQvSofFlSRDWqIzl4T2wDQNHsjZoJUuAmOuKj1WKu/kfWTS3HYUgK8brNtoy22xDu8kPAKeVAI0pRp3P9etVi0E9QqINtq8QtqGhuRvahTrc1qVFPqSA3RyMZjyW4EVXLc2KVSd2nG+lZ7Eu3LQo+EsRCDmGhlNW7jrPqPEIA2/xr4eXOJqcOARBmkekC6LKhFB45Pb2QZIFXvoMgiPCaMN0vIduEvlYHo4/L+8fgKoFPTDq/MLpTaWu8UcZ23aiVte5/+L8m8Dj0rZw2lsCnT1A6lGbdCzn0xE/M0lksiOrbzHfFpr9U7b0rMwv//Khne8ovZqyiQ==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SLWceOU1rSb/sBdLY0y1/yqVG0vqy/Gh2l+lREbT6GM0kiFhuHyniYrBRozcVgpM2FPW/EXmS4PrpUkDWFh5RL/2qOSDPuXCwqY5GTViDqtXY6+UF9uYAUIreaszoTQj6f+RoyhMPxa2lffEa8i8ua9TlW/de1DdJcMmWaBNWvHZxaTf4XAyKSA1uG9pRyYFkm5SALprIHhJpU4kalMzquRLysFZAyf0MwuAfMVDx6672FRpy42LdMxjrqm2pcClq9aRlYThDSZgFj+x5dow27pt7RBEqnHCblW8vKy1s/aTthxxhb/9pCLNbJiMJ7UKaplIaZmV9NzQoRiJRKE/N1f/RhgZePWl8QHhZPIHNCQ9TOLSddK40C2HtYylD29v/qMv/F0OyTjbLNH2/XLAsA5LAjZIKcq1WDhkLXKaFclgaRRAOkl3kbf1gnEPdIbCN4dKbh4TcfHRQdFGLVZH3fui8jlr6yaK6dPpVsHgUk1/I1PfdFOZXviAMoLmj2rmSCuilu1+WkvzH3QyMYdtezm+AlywF1u7tOCvMZ7yTcBaQLnn9iksC9YFjCEYcCVnBkdj9NDti0YA9A/jwX3HsErwv6ZIJLXiIYSlg3zgMLvbrlZgvgE9Oz8IyUMX4jIwz1UIBMZnBmoWJSxT6IY2NbF9TIpbTBLoZ4/gHQndwMFNziOUioAihmgk14mgq7FqKFSvBYfO/Cj6mpxQfIytbyjSuwPhijsX4okgLOanIQlT7Xjxcm+VXdEszP7fTRbq0IcvuIV3YRUAoMk1m9rmcTt/zDZdO+rrmCcNB55E75I/fXc4TKzJBSoDUwspBz+/6PcQPSt4eLmYHBacmp93oGc0o2Pm1+ocPXEAPRkfX1CczgqGsFL8eYzU6f7OpQM9SaEhgnYHmSFItXR+9Juo+TJJ78oStOqzMr2jOLjUZ8lLDg35mfAFJYs8KsinelycaWtntkhjTUekAZZQPyXJ4M
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: img.png
+    visible: false
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Math+/+Basic+Math+Functions
+status: Unchecked
+record: -1

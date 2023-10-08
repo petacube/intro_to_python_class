@@ -1,0 +1,42 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 24
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 24
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: lw5hJORKtPefA5IXAX+M4swbfr1QC0ILN3eq6TR/ssE=
+      - offset: 38
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 38
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: hIQdI7891Qy+JMDbYZu+P14yeW7S/MbvNNOLPhQsMivZhs/CEyRax40e8n7mvrv0
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg9JLDNcFXQoRj4618DgeR/+ywLseMh/xHBsaJTyQDJmXZqXXimuSCIcHPdWtxrI47wR8Fgm31mR2zpdj61PjfRxmrfWk0HZxa3u1X7sFvwHokm9CTy6tCstmvHW6ySGagv/vLIQ8KpNL6GkEvFcFATbqPA70pLX2vAwNv/yOl+NXIpgjmMW/kGw+6gHQBqI2WmpT87SuUFNwbUpjGuaUaSo=
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SQBRqOmMK4fWCM+s5FPPvWF/ae7qEDvxzUg3/6LPbRjAU3xnbtpanQpfoJgOOAHH2k0sgiOg7WyjsMVe7Qorv/j4buDSZIy+NJ6105TTetCH0iY4ROnJLL5YzKlu1wILyM5UVimmcvI4Ss3whyd+cvCdeEVOiadjMCuzFvy5eMDq9FE0vxTjzcEazLf49okSXPGZmm7tNsniAdJjSvJjxCBDXvGRIyuMIdTAtYGqNHCTaXbpIaW1tXuRY2FytYyq/7aA8YgU9aoNVN6EdpvCVlBeYYVFHFYOK4X+SzPna52RY2VBUAPjtEw9dAWbuH9DaSXFsYJk7OwgG+SrXH175VDhoqLRJtBWVTf2XDwAE/lGrXMsSvCoRZcdGnxAcZbVA2h1qOKPaC18Vgdf2I/ljGf/mdirG6nueOMqfErolnm1l+RS9yqm2lm0R1fAgzV0eAVYQE2D/WkLArY8lftaEGvXlObHJXbJfWc9qZLfz3gxOwYXXwA3mKinbh3UrhYtcBvPZ4pqSEYxUXwCTiLTH05cb1NYgYUzT4I2Cbts0FKucU8ExahMt5ZsOqc7brxT3QAwIn+NV+R2UijyUR2ljw55SmaomgV5ovqB04h+BDhS4GKIA6ySOZx7iv8iDBfxvqFA/W4p2wQD3a8AIU1BMrXDuHzSrd2OWKgpIx5mAb9c5dOIiqJ5qSiGDjnVf9ko9Ih4zha7lSuEnFT0ojEMyJVewFRREg6u9gKlF+RJyxMp+k61qojWKBVQh5EYOncENvF7k2giKmy6eqXd4rZgl39xfb4uSf4afksgZNNn7XFPQIUbbMVWq+T8OzdqGpaxi3Jfuia82SrC7tVk9ZoqCi
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Indexing+and+Slicing+/+Boolean+Indexing
+status: Unchecked
+record: -1

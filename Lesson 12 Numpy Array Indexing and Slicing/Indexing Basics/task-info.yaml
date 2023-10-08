@@ -1,0 +1,42 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 240
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 240
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: hSShUSoZOiBAEb7YIjLTaw==
+      - offset: 251
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 251
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: EFxpxCed0XwJLQqbuXXJww==
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg6VrEdDWWdvPNw/qNKBtttEQ2ACCRKWE1Z4yQIBdMz96OsNXfhfXavha2eO4hDB2Kww8OKgIaJ1xV2/zV1A1lktJQvvzhXe3ubCjwYq4ADIyqCaANutg2mJZYgoCeJX0AbifEhRk6GZ0DFGVGEAJSPBCaZzOtPOvWtlyMo/bsU/nmvp4oDQQ7NmKHowHrXQG6VhVlXVecpSK5gVSeP5ANqzx7YFmOywyoADNOLuc+iNvgDAgw+wYVfbFWvxVfT6qB6itxL5HlLvEEUqkraVMIpWTvA5VGeev4fRHPIYd2nnRp8/+bFuBWSFqioM7M2pk43RSB9n77xjcKcHg0EHevXtB2yE5Bu4s7TMDPowqch7K2bRYLkMaiUEFrsVqhSx7AQEeceq2lAVBx9cHMD2EE9A=
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SQBRqOmMK4fWCM+s5FPPvWFVtVA8xsRermsSzkJOiEIz2ZmhBmRdhBq+fJWsh99jt5+sAatqJlRONO9sJU/8fuoNMbDTIDahPQwHYGdwGSgKXHVyXb4sUc8zccyMwKm8Nu4PufIjS+tXLlcPG3kn215uPycEWgbxlXVINYgls+GkUPqOt/jtB0jkfsJc/QZ9ycSQYOGR65eEK55WzdnuPVSo9xca53tC+EqPndmd4ndGxhK4y0JiRdkzxwblB+ZVh2myLVsn6IRR42izoDBD+MLQSmmNSbfhlpKJhaWYK/4KAtKCzAH9mnpXQmtgF9Wt9Wkw+ye6P5ip+4AoRERdoZyA5Yc6/9c4M0HMShAh+R+bbrvV6CSj/Zy5HmCYrMDkVXFxh5Hq4B+oeGuOUE8aENruLJFgYqTQBPiOOphAiIhWIB45cNTetb0oEoCB0LhQYH+XTogO51Zhg85aMfim320wGrWPEELLByCoXgq4kS2T6Uxejn8mKgddFPZL2dQC4zcgG6cJzwW/exLjV97f0x
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Indexing+and+Slicing+/+Indexing+Basics
+status: Unchecked
+record: -1

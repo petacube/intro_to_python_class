@@ -1,0 +1,58 @@
+% uncomment for dark theme
+% \setbeamercolor{background canvas}{bg=gray}
+% \setbeamercolor{normal text}{fg=white}
+% \setbeamercolor{structure}{fg=mycyan}
+
+\definecolor{mycyan}{rgb}{0.0, 0.9, 0.9}
+\definecolor{mylime}{rgb}{0.75, 0.9, 0.0}
+\definecolor{mymagenta}{rgb}{0.8, 0.0, 0.8}
+\definecolor{myorange}{rgb}{1.0, 0.5, 0.0}
+\definecolor{mylightblue}{rgb}{0.68, 0.85, 0.9}
+
+\begin{frame}{Picture}
+
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{tikzpicture}
+        % Horizontal rectangles
+        \draw[dashed] (4.5*\myunit, 5.5*\myunit) rectangle +(5*\myunit, \myunit);
+        \fill[mymagenta] (4.5*\myunit, 7*\myunit) rectangle +(5*\myunit, \myunit);
+
+        % Vertical rectangles
+        \fill[myorange] (0, 0) rectangle +(1*\myunit, 5*\myunit);
+        \fill[mylime] (1.5*\myunit, 0) rectangle +(1*\myunit, 5*\myunit);
+        \fill[mylightblue] (3*\myunit, 0) rectangle +(1*\myunit, 5*\myunit);
+
+        % Square (blue)
+        \draw (4.5*\myunit, 0) rectangle +(5*\myunit, 5*\myunit);
+
+        % Arrow
+        \draw [->, thick] (7*\myunit, 5.5*\myunit) to [out=270,in=0] (4*\myunit, 2.5*\myunit);
+
+        % Arrow
+        \coordinate [label={\texttt{df.stack()}}] () at (2*\myunit, 5.5*\myunit);
+    \end{tikzpicture}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{tikzpicture}
+        % Horizontal rectangles
+        \fill[mylightblue] (4.5*\myunit, 5.5*\myunit) rectangle +(5*\myunit, \myunit);
+        \fill[mymagenta] (4.5*\myunit, 7*\myunit) rectangle +(5*\myunit, \myunit);
+
+        % Vertical rectangles
+        \fill[myorange] (0, 0) rectangle +(1*\myunit, 5*\myunit);
+        \fill[mylime] (1.5*\myunit, 0) rectangle +(1*\myunit, 5*\myunit);
+        \draw[dashed] (3*\myunit, 0) rectangle +(1*\myunit, 5*\myunit);
+
+        % Square (blue)
+        \draw (4.5*\myunit, 0) rectangle +(5*\myunit, 5*\myunit);
+
+        % Arrow
+        \draw [<-, thick] (7*\myunit, 5.5*\myunit) to [out=270,in=0] (4*\myunit, 2.5*\myunit);
+
+        % Arrow
+        \coordinate [label={\texttt{df.unstack()}}] () at (2*\myunit, 5.5*\myunit);
+    \end{tikzpicture}
+    \end{column}
+  \end{columns}
+\end{frame}

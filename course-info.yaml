@@ -1,27 +1,44 @@
 type: marketplace
-title: Introduction to Python
+title: Introduction to Python for Data Science
 language: English
-summary: |-
-  <p>This is an introductory Python course by JetBrains Academy. The presented materials are based on the official <a href="https://docs.python.org/3/">Python Documentation</a>. The target audience are the people with little or no experience in programming who would like to start learning Python.</p>
-  <p>In this course, you will learn about the basics, such as variables and operations with them, strings and other data structures, boolean operators, conditions, control flow, and so on. You will try implementing loops, functions, and classes, as well as using parts of your code as imported modules, and working with text files.</p>
-  <p>Have fun and good luck!</p>
-  <p>P.S. Want to contribute? Feel free to send a pull request to this course’s <a href="https://github.com/jetbrains-academy/introduction_to_python">git repo</a>.</p>
+summary: "<p>This is an introductory Python course by Petacube Inc. \nThe presented\
+  \ materials are based on the official <a href=\"https://docs.python.org/3/\">Python\
+  \ Documentation</a>. The target audience are the people with little or no experience\
+  \ in programming who would like to start learning Python.</p>\n<p>In this course,\
+  \ you will learn about the basics, such as variables and operations with them, strings\
+  \ and other data structures, boolean operators, conditions, control flow, and so\
+  \ on. You will try implementing loops, functions, and classes, as well as using\
+  \ parts of your code as imported modules, and working with text files.</p>\n<p>Have\
+  \ fun and good luck!. We will teach you about modern data science stack, which includes\
+  \ libraries such as numpy, pandas, networkx, matplotlib, scipy etc</p>"
 vendor:
-  name: JetBrains
-  email: support@jetbrains.com
-  url: https://www.jetbrains.com/
+  name: Stanislav Seltser
+  email: stanislav.seltser@petacube.com
+  url: https://www.petacube.com
 programming_language: Python
 environment: unittest
 content:
-- Introduction
-- Variables
-- Strings
-- Data structures
-- Condition expressions
-- Loops
-- Functions
-- Classes and objects
-- Modules and packages
-- File input output
+  - Lesson 1 Introduction
+  - Lesson 2 Variables
+  - Lesson 3 Strings
+  - Lesson 4 Loops
+  - Lesson 5 Functions
+  - Lesson 6 Data structures
+  - Lesson 7 Condition expressions
+  - Lesson 8 Classes and objects
+  - Lesson 9 File input output
+  - Lesson 10 Modules and packages
+  - Lesson 11 Numpy Array Basics
+  - Lesson 12 Numpy Array Indexing and Slicing
+  - Lesson 13 Numpy Array Math
+  - Lesson 14 Numpy Arrays of String and Unicode Values
+  - Lesson 15 Numpy Transposing Sorting Concatenating
+  - Lesson 16  Pandas First Steps for Data Preparation
+  - Lesson 17  Pandas Data Exploration
+  - Lesson 18 Pandas Data Manipulation
+  - Lesson 19  Pandas Compare Search
+  - Lesson 20 Networkx Graphs
+  - lesson 21 UI with Streamlit
+  - Lesson 22 Tensors with pytorch
 tags:
-- Beginner-friendly
+  - Beginner-friendly

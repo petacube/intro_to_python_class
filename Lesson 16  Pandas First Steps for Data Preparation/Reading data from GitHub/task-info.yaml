@@ -1,0 +1,51 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 869
+        length: 56
+        placeholder_text: '# Download data from GitHub and load it into a DataFrame'
+        initial_state:
+          length: 56
+          offset: 869
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: Ug+f0F2sJDwutYa5S7O8gcjOXdxEdYQnPFsiskdJSGSrTqYjXU5QfpJbVwgWH7DN
+      - offset: 975
+        length: 43
+        placeholder_text: '# Display the first 5 rows of the DataFrame'
+        initial_state:
+          length: 43
+          offset: 975
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: AdFHkytHRFttooqV+4KrvNHWRNpN8R9/ca528KWVYZs=
+      - offset: 1063
+        length: 36
+        placeholder_text: '# Display the shape of the DataFrame'
+        initial_state:
+          length: 36
+          offset: 1063
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: hohiV0pslDTaZmZED3CMeg==
+    encrypted_text: 5M4pN4BrpL8bKpNo32Z7i4qjaI99jTCIR9VWbv0g1xDAMENHylCSJZG4dUOSIMcY5ODbwulf4lvdYI44PKiJYuBVlqJqXeZFbxkBmRjxHB+TntTk+BM3yU3Ky0lJdW+k+6bW2o6ou/MTrJDn/deNOOxXu2XA8YDhodm8hWcQr0z4hX59wxOgj+uiIC+wDszJwmjDcK6zOZSYbMlJaNitXxGZBH/LYthvNB37/ES78qL4zcSX2JD4G7J7EvBJcWXJeW0nYsUFluxOyRP26oxZ05461tsnoVBHSD0Ebs0g/3DFWrzK7FdC6ekwvdL8JZx9rXAfB59F6UMI7S3Yz9/woU31xXe5h5893xp0ZmRcnCYzO2T3Qm0a4yfNSkFw6esxP0GQCv98g+y5LRJLMgV8HOskGZLbm15EYjwpSsepg2CNQbzTJDukwMDgEOgWaigSvjv0LaUF5/FiSVXmQ50vGJpQF9hM3T7WvLqWNIau7IBMrG94w9qgx3Ei640oNyhld1pYQIcAewv979YKNT5LhR3M07+TvXsTr2/PvjLOtgi+rGsdUUz5zLXjD+uyTbDAkcu2hGkT+DJNJaHVUlCFnnObbt/xA3rm/J9TRPbIWj9LUt4quiUghbVJ2Ozau20SMP2XTF9nT7Lh4J+xYYZFiUT665pcvH7vQhiyrpsEzYvLTGk+MAOk74vXqzIowQTtyvJBlSba7rMpfNA+vqjl0rVFMu95DlFCX1tGUhMWywK+5VqLFso/lyyKVFkcH9TzfBaSBjbBKh/BmYyaRdAPJeSZHawqoxJTMyQXPN3grNMFrAmUVRHUp1g+6fBuEh+uSVJl2qk3vu/cV797fJYpu5PazH+Lv0glm7BTQbyxFsJGOt79ygNuxkMzKIPu9DKfsW4bEYTuQCJ2ixfLMMe6+/ocwK7MLlmn+/GtzQQoIGidwnUECoaYXNQowpD464YepQSyTupWv2Gytyrl5IV4RdCIbnCpUCyb1uIOCB4ShOLrju4rxwN2pgcySMH200fEr1+ppAsSdG5KN/mDx70pbTxB2SsWNuo0IFiB5PxRntAA4+N/whrObufEYtHYMMLVEGCBlAYmkpNyX9oCU959o+mn/VFzvUDljIpoDGAW08pvKXd6z8mv9ErbXpVOnC3YRQIaGhcfwQlN11yFEPItUSTJMvn3B8IlxqgBaNoN9gq42QzzYJS6UKyGNLjq6NSA+5A0TjspMz4N0VPHC7simHxxncJI5MGe+kOrbq6WMdjA8vVhIRWcEjHzJg+sQQnwZPk72FRQrGCAFiUJr5judnwxBszxHypmrvCp8oc4Lc2t7tKGyEoWmoOnyahaFb3apS6NeREawLjGj6S+03ekx6KJW+j5//Ffts22z6mfspWdLpABYHe8jJmy0/Jf2F87MMMbBYieeEkS2fh8t7enNBEhGV51zWj695nz/5W1puowJcTru0pdovXJD8rRwGTbcEOYs+YI1li3SHhNxcoY46xiqwqL3d3mzR44PKZsfhnjLL6PErofc/jYI/zqzZfou6yaPa69k/EGSbbXXE/icH+608Ni61by6nuwSb/S9Xo=
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdQTjn1YHMq4gonGgZk0sm4doCIBuaGd4xcCkq5M1djzSGob/MCUV3oxsStPKaQMNl9fREUfRVdF+BkV7Tcd9fErd969V9ie6MCpEJb2yCCY+pUC9EO7mULQj82kJ7r9Ly61ZjghanFfKLwNKxhVJnqMk6tMo/9LX1LBdBKDkBtAE+rpMjSezb6Esdf2azBGe+EIymvgZYblIeNP4iviiZKZXo+IQeoBrMcGMmhizRMNZkeh2oJEsFkNwA0+3EgCHqSI2XWZkP2aALebYag3zU9sLLMUFD2nlUn8fhYKWz5ia77bobAna1dvD7uPLbmEApdxjexoh8xnbEl81XjUMB0VoLY+QLx01Uce06A9wfjRFjja6EOHALGfC8kPtwk+Lw0uJz50WG06tj9eKfWrXQBdyaMH2Be/DipkHgkxQyRQ7V/HDbH71gh13kJYk5bJmitKBF6Am3KT2v1nLTmAWRZs5XmcIicjOnewL4VSijnh/Y6ldkSjeW4757Z6FlmhbWy+H9Gw/DzLRbjyicj5uix3vy1Xovv/Xvn8cP8J5giSb0LMJZmFY3d/JWYBebzPpz+iLFEGighHEttxpkTe9PPgHN39ss+YKI+2SIeLZIoBqA0P1tulrSbiWAX6gTAihgI2+dZj862vz6avB7wNfHjqpP6fsoQ867f3HBB6EnWfKAt39kWPyQjodouN7KD2uZhbIOIKl0nq39SeeajfF3/9WqXE2Im8nZ9sUqmLi87PJnHqZBTaCKpr4Ed6sl0GF03DOfmtmhYC93g6VguPoe27NKeqiZ26+UzTuASWVCeCyK/HS/gC/8H5cw9B63/jaZcgFbtY0Q2v1Xr+F+p1jJhsRaWw7Fgn4VhCFZ2yooM/PAH2YA3QjC0hzoZLpjY0m5w==
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+status: Unchecked
+record: -1

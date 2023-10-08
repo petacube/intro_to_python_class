@@ -1,0 +1,43 @@
+type: edu
+custom_name: Elementwise Comparison
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 56
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 56
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: Qf5wsen1eKpXKtOoxqPXzGnxY6SWbmRVeWdjU5KJZKo=
+      - offset: 77
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 77
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: Weva5XwxguJHIXvAzaNAng==
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg+z+phuR8oEAs5xdGOVG1yuJ2/wBLdm/ORfyFeqfckdZAv8UNgqt451Fjfzx0CO4M3A2KOh4KpmMeSLZeE2IOCfriI0Cq6Bj1uKVJbzrotbpZzjnh8MwazBdRB+/zrGA0J3e6U/UdDrNDGZWXoEzOJpGRa57g2zGuM2FTZzGBwkSzbcO5Pz+vMupTc+cGaECwHzWwIY0Z4hDm7JcT7oRTvTgYkhE6NfepcS+Czof9O83mYgXZak4xcVws6k/7GwR6UvRzgninnkzxAAg+ZUr5JOu1ir8PJqyV3qMpTEckPtxsG/5PU5Pv6yC6yM9Ph/k3J+2IrdlLxKgQ/5bTtns7CO4jiucFQwfa62V2fmTIv+TZ5NhDOvhPN7Jud+cYATOi4w1Bl7nA8VH3wyhlAQLvqhFo3RCDcwkm2CPBgFP4N+gwHQwbgAjA+/JyMs3hjrirKeJa7zTlvV8kHj+ZEVOUrejUcWc/QyRQh7MP942U64Hv7GGTylgrH6E2ImIINZUk9yUEydgOQOPkfAby6fXdCrKzMtceBfzwKO55toAcsR2KrqjtpjuE5Fr0rB8zKuX/ijbad/xwNSjsA11ODwESpacrLEb8Aw12nhOHDVgP3tP
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SQBRqOmMK4fWCM+s5FPPvW05j8vjGrtHdfXxBzaW2+nxMIegvQiisNpldZHAzF879v1h8hZ4uZGri1tjP9dk5/y2iy7mLqnUKI02PO84d6PYIKX5/lAUVOlGbCQCwNXdkIyg/qmdsexi2Tv+4NwRky++SxP85yy24YFzBYAGmLNkzo6Lql/Ja7+GJhX3jnczHyYh+C0HEs+EHDa92r5crgop/Gnjk+SvijuCvam0aoR8aaCRPSR1tUmN9UQ8cUwjaYgqno73xu/wDeudxJ3t9SSa+b8UMY2UeRGtj6iaIEe5+ngli0m031g/TZcmWtxudyDkGa+QM2NVXAs+nMGCPASiCeqgHcLRbTj2+4IHGqOCmbD2wVX4oASjzg1Z+V0YG+0dUAhCrC5FvK7P592Q0LKoJOmY5a26XBJR3zzG4VM9t5Mi0I7Jfo4hzds0y0Dg7mpOaWlA2O1gqcuJwS54xg2nH1mPaVc3KPt0NfOZYimOxOuxuHXodp0m1kYrOWjw/OnWZJDsuEqGSbUa8pH3psro17GFSKNKIVGzNg2ReHUQ==
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Compare+Search+/+Elementwise+Comparison
+status: Unchecked
+record: -1

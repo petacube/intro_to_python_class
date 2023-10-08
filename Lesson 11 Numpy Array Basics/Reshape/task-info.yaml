@@ -1,0 +1,42 @@
+type: edu
+files:
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 24
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 24
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: jo+3LadafWQ1nyNEuCwJC3JMITU3Mhpx5KriBDOO4tY=
+      - offset: 35
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 35
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: Y8OgWqed8431clyJy//s/w==
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg6x4uHgzQbH1efdAgbYcgC9HoYdstiw9oTvxKKwvV/f0YJvDvPtxGsk4MC9dR6G4Sbrxr1ebu2lkJjIY+v4EOs7XR4A1WSyHfKXQh0aXxQ5Cs0BUnzW9HFx+Svad7FoXK7cNlmlzaGRFjtnarjZiMS1LGCjc5peUhvbkVspx62tm2I0we51jtEM3aHMenfOORQ1lDsBtj9pMIzViq6t10s4ofMFX8J30xRA4eupTHxwD8jBJQzosN9FDfBGOFd6sWA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SQBRqOmMK4fWCM+s5FPPvWW/0rCV5vjn9JPI8ANRaHJ9jP4UUkJSZSgLNWLJHLi6dQXhLTYs1KOkc96qbrIxYbLBuvJrRbzyfI1EmnRIXuqc9KV/BOzZIl02tXDqXor39M0fipAQg00orXOOTp1bsvuJb+PfNk84UFjGKAKSeuYMeY5IBFwvUcqJsRoAdg5C7SOf7Okm/q8R9LGs+gvGL6eb56IIOUcFuwoSg+g7tZJ4yt+efTXjmmQt2pIReBKUTbCyeud5EDNGLkW86aXtSVEDLFcAEtNwlRpG3M31xHe493lYFFbFy4hjSepM6WNZXXFjSLtXsfZHq8NBOB+gGFBtwMHqofpaJ9wleaGXgi8eFW+v5HzXZnO8S3UG5izgaPbkpy26v+g5Y9Y4pjPZghIGA3do9maLg3dZ1JBiY8YA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Basics+/+Reshape
+status: Unchecked
+record: -1

@@ -1,0 +1,32 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 50
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 50
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: tcUCkqglUQPCFldiGQuKqDi+NgJ5K/hDRrrlWXQWrwINv14QMT5APTOUbNJCBb/oUnJINOfHJJwX3GYuP3KMnB+wipZKCGnRlUeFy0T7qDg=
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg0JRrLJs3CEZOzNReyi5aIJMM9i/VMKZ4qm1c5qVNoxXbxkY/nBbx4pa/YzJ7Yc69U/oDqD85noWU2P9+ly0FpifEq2jBu6RdgV+jTCkT4GO2jpbagjhWOEnAEaxzuXIv1+vTe2KQ8so7uaC4+u5rX6RVdDguc7sVaevQtkLtkIS0ud3SBhbNZpPicXVyabA4QO09fHWLZX1R+IhVtJerAYdp8mvbeg9OHEV51JyqKJC4i89Frb5dCHIdWVUyRv20oO0Wg1Y8IAKKjCOojGdezzFWTPvb0tohi44T0XHbM+RbqYMzwnd7zQYVmcKvyBkL6Y2X8J2wOmoWHFX0m2TylJVznplr4KJxz6aRuVEons8XAqkRPGo6k7RSwKzHAjuyRoSk3sC42jp8Wf+LNzNCS9LNYRW8jlNJRJi8YFxKnxe/R76j6SPTAoj6INgD4wkwD4FHpRisEBNivxG9U+XebK3V5cvcrhr5rNFgJng/1vZ
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SQBRqOmMK4fWCM+s5FPPvWzxv11M40cp9Xa93HnsUBO7S+E+BhjyyIUC6/ftaYIVwXzXrHFHS42J5GBA3NTjhnjxRKg2fCEwxJE9KXB9PcgdHoglipBH7Pl/CY1SyDKrna41M7zyA5kFNV0a8ouMPha8P9axETXyTTbbYp3tQmCHhfpswAds7mOWPkAYhdb7MIrIkpwdmlXJs9l5IkTztdqwdFliDoL6XcVjNmpsLzFgJPPlB5oOY4N1oyvjyYaeENh/aiqMOoBWVmevtmzIbpDC1Y5wzkePzw/RXW1W3M7ptqp0gLCu5brXiZqXWrLu4VZop4b89QFMJ6qGeez9eAocDUJGUoLpmzfk/UHCkFplW6sdVsaEsD/w4fIIAJsv1kYkVaX1N2j5rgZ6xwm1sf/EFjEWMJeEJj/Mf0v8wvZe2U4pqg/EzVSBEgqBsOg7yVLkkKOosBn6qvymvfnAxj0qxP59NQkEnvqlbid4eoX112VL2xG1alPy3rKjae2uLTu8EgDTLRxfZDRV9BsERWS5orFEov46RBSvf4mnFSuaklBLqHxy9U/BuSdikBfdhFWz+R26ZmMbeq7fgwXMvupaj1QIWtPEPWEc/yPzZB6pBTQhUj2VlE3Z+SzIyMpM8SEiEhk/n2SypKP6MUxN0s/LTIeqcCtNOoPLyeuJccDzundVG6JrLVVNqT6nm4q+jY+qu1kcGJpAltP6hBfCyxnFHMuHc4NhKIwb1z3139bvfk0o3ERU5PDqZ87WZl6KWHRFmc0xEdZxnBi/aSbzWgLggVpAS56xwPV74cKYIj/75xPlWoCTY8soRGg1TKO/vN3SmG4ovkiy+vOHtjRvfKSOF1lzPrXd1YskvyW28gkLrgA5UDikHNJMjOS9HKh2k=
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Basics+/+Create+Empty+Array
+status: Unchecked
+record: -1

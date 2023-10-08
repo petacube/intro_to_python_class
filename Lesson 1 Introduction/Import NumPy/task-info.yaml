@@ -1,0 +1,14 @@
+type: theory
+files:
+  - name: task.py
+    visible: true
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg/1wX+Gk34DKDg87Ov5kI9h5U/q3SD7OA4xelGKv80sqfPpQcGta4oJOP78b8GQQN91JswVWyxAaAjS1i5Ie4u7tX0A962MRktN+oxi6mRV+xsXWSIW0WYuuZ1UnuwzOrIZiQw9rVeAiwZ+CeDDtJ2NKhy8lc01z9saLt59elGZZ3s/Vu7FoBtKjzKubmxFKsGVgT/T8wDLb4DpE6pr1X98=
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Introduction+/+Import+NumPy
+status: Unchecked
+record: -1
+post_submission_on_open: true

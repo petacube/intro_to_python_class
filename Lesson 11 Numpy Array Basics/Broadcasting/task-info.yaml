@@ -1,0 +1,44 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 69
+        length: 72
+        placeholder_text: "# TODO: modify x so that the print statement does not throw\
+      \ an exception"
+        initial_state:
+          length: 72
+          offset: 69
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: fpX+U8oxM9bDlTMnMzkLVu+ZcJjKWm7eRu/i/Uzwj/E=
+      - offset: 191
+        length: 72
+        placeholder_text: "# TODO: modify w so that the print statement does not throw\
+      \ an exception"
+        initial_state:
+          length: 72
+          offset: 191
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 4EMCw+DHwU4pmhdwCCwAuLQmhEMa9GSORDY1Or2eeRM=
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg/b3/sl/ufyKTI3Aq9M2r6NZ9TKd4BXiiOerq6EYlSjyicbWhzDgGN/PuqGDUychYUjzhSeNTAsRs9r5dvVmkCt2d6YTYf+PkGPsEBYFMn+XENUzPnitd3xA7okIncacEAPz6loYC4sgSNiHb9BpIhtcBoElXaRlPVyThOA+y11/yGAgN5Psy+7AWUUpiZYbyQY5aD7XlOJuzuwIyUakXaIvl2gnbYpFhKvQdAaPPoC584aRls4QaboQyBiLo9i8Uy/FhAN3+/i1FS/RudG1bpQXlNzNFRccl3Eo6TnB6kaDA+Ls+U6/zhBVYP9fkGrsW8uB0bVfuKfb0buQ96ZJU8DoBR+RwwK3+QqWY7kWDNO/oH4I7u2YQL8G0z7vx48A7sO2+oWIwktILSAh7DYsFrsLI382K/kuqxO0u3F407aTYjcCsUe2jJR9GwXcUpPYGeV92ON+RSsUHmr3TO/Wr1LYu4sYRxX859pfj1CrP1pCkkbIcLSND9X4oMfX2TVtnA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdQTjn1YHMq4gonGgZk0sm4c6SzAuCSXdi5mNqxpJz22i6KlSIpgARsXkAFTIdPwuatDyoAaXKvtBZa82qMeWJToxjbAGBDABQBqOg2KygybvuuiiAXDtMrq94Wz2DSri5p8D19U7q0LHa/tsJPsWtY6S31rTtTuIzvbAP5JtB9grLbknMIdf63Ksc84+ccXTFOeqTz+CyJdAib4chfUdxs74jd+hmf36vhJZBTN5LjIW/NeEhRfsyXz5SxP+L5kUt5vW0yV19s0ZTpK/XAhmEm9KRw6aAY+MMVUuXvngarK+c8Hg6N3jhvdebkjs7gAkQboDQISNVTGMyJTl/C9a+sA=
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Basics+/+Broadcasting
+status: Unchecked
+record: -1

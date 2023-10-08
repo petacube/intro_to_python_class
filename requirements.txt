@@ -1,1 +1,6 @@
 wrapt_timeout_decorator
+numpy
+pandas
+networkx
+torch
+streamlit

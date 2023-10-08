@@ -1,0 +1,59 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 84
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 84
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: KIfD+EBmnTCAgXdhXf3BsTFfjT7HuRBLq4s76C5JFwOQQdDu8QhQon9rqUsEhmteRgYYXC8rEYR0BuBbmsi2sLsVzmwJoMvpsoakfhgGDmA=
+      - offset: 617
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 617
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: dafOjQDXRBFo2i/F62zK0eadUPwb+VEentdgP/2f0JzJYJI+3X8YFaZofPO9TnK2
+      - offset: 644
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 644
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: dafOjQDXRBFo2i/F62zK0TrW4TTSvkgKcyygpte9WDHPMRTfY8dhhcuOVnlJSfAZ8m9BzM3wL8MFPXf2UvoGoQ==
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg88UG/AcZPIvmU+vTBYFG7iXn1EpDbL5+j+/IEiNfyWd6DB9766tQxyUD84SqaxYjS1lNp4lhThrWKFeovTfdKfydWulOmS6FAsqrNjgxf0xkYYS2UnSRCeVAg10lgAI9iZtYkDSLU00+caEwQb7Q6ar+Wd1O+4e4fYm46YbyFt2+cuGxlLOpykm/egvnN57hDLQwuOLzNCaKSnam/HLUsBfMf3Ak9Fz8Y1ZMbHWlfZoGqCnZrq7dr/I/0z7pq4xI8ymGF8jOX/dz+CJP/k2W5+W/5QkGmcOzzTCcAejpwd8LpAOdYm2aAu5PQ2Z4yOBAgdNcXS/SwnmfxAdInD7ssbObarr5zWL4lyA0Tgk1ljoK1tdXYei46Pk6rVddrxFcr7846dRPw8Luse/80tO7lqXBdF7W93RYLYQ/7hmmdDDMJIyyM8yj+oRYIUT00IgZiWfBwLu0DctJMun9oRc7kvCKDbe7+ERBR15MfenV9FBeJw8woXdj8iKysdQrljsF58E53YSzeCPye15D7jh3gcHjZv7hkFMJk3Zl2LSeuZJd3pI5GRE+0VTyZVCx6I1e9DTlLEhL6a5tKTZ22ygWfoTcSAtWJC81IMTiRc7ep6UiTl0gTqzqkUuDcLDs0L+9ug5lQH6D7E7l2reH48TAneMNvhrcXxpsFdmRbsFg0QOEtjcLKeTlWGSGbJqELVNjr9JrEfblZxpUIxLEVyTqOqpfonQm3f1UJx2stqi1Sse6zVl+D1awrHisXwRxgtVZhJJBoQF1won8XEM5E8WUVCIqZ4y7m4heFT3lzKfK6OIEooerR0wG5mwzNCgfxUi01ew6KFcx4MZpjbpJ48ETssZZQyhJgSIbU0hFLeEliLE0QuhkWhOivX5rdHRG4rC8b6swkeW4h2sp/PZ0TB6AGZGwM3bGdRy9dkK9VlLvlOAu98horau64cnquw3ewlxIJtZl+fqeH1uEYyc/awrJuosd0E1RVbQ1AZ5WxhA9dpvWIu2IIQwgqZONu3eatTtqd6vNxSK7XSzXfPrBUDCwbWHyT2bUt0piZL1cZ+1ouSIoD0i1TdGejaRXPGxgxOTMseA51p0bNv9/e0GYZzS91O1hT472cLk0/x88cPYF0bKvm0sjzx/PzIGeLRREHF5ZnaskGeuYG3RK2K1XHARI5HqT2o5pukKc51XkIBYRkQixRGoRwsjkLHAhojbYxvP2kXYN4BgrKZnGXdagFpgTJawQmdHMxdxMHdk6sMCWSEiosJDxp6jSnRI+2jQx0jwk2yOLPTZXidRo/pPIqnsKAD5cUgP2tPfnDUGvjvXlP3N3QM2Qpn71pvUPqF/hTqHFioEnUz9vuvrKYXOU7EwwGwMjRZvWdWdpXdFxsdQEqFvjD4j0DHzk31rAkJbOXmkuKFoRfi1b3MnvjJZ+S6FyQMgvZKFZPXKOAI8B99XLoi/2vlT/npiYPjbwlOWxY41zj4/aVb7QPf5LMjKK/OwvK6r2wxh0nZVrOOGkm1Urz6Pg3kfmvgxywLvbcf8JcV4Ktu/VbjKw8haCQYh7GmQvjLWfGEwyHH1Ud73mKGZ+LeI
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SQBRqOmMK4fWCM+s5FPPvWoJ7sVDaPiD3UO6RG1uTBM5jrnuKo+QEY3SbzvtEdkzY8FEGQdoHDzFXhfeS1KPYsCmFRsFrrKLMjsiDa+oVyhJq85p/o6g9tlYOfWlAvuh4QSfWcgP+c32jZ8anioOxFO51zWPxwCEtPprwgDuYXy1k4A1FQW5Md/etlpPJR0VTOgaEkLk3d76TabXwqdoYERPLhgmN9a+UhkktFEroY7DshV46Nxq2R8J0NwMbht1LgaeA0i3nQf1xu7MkOqTLZcrQaytQlgVs8pba9J3cKyHQvAmpH9bCYoZkEjAnywjVE+1l45bck5nckaiDrmJyyySViQs+Xfc2+5RM1AmlET7YJrKu+iA78t7M2A0EHzZ3HscnI6Vtt6yVAqP5MBfSc58OVCyYVTLPgoubinUR/LEDAyzJzxZ//QtsqGnnA1l4+5UrXjS69PZ/4fCThHWu4BuZFCB/miB/cNFCg51rOvO9hT0g67ri96cmsBSg+xd/BUmwxF3yZxAjg+zBCPzezzHTcZ9sTUk3HJECnwQT/EK4Kkdr3dOav7T43COYicuXYhGc43fdM6aqBNds2U05uIAQsQ6n8CPBY7QSw/bWnTk8XtzgZ9C4HIFiBsP8dLVacQSCIVh8CLCM7xQ4xViXc65uc1Zn1f3sdbbJ51IuUgRbwAFYDXTTJKSJwvJCZQTrF5EyHnVgTcW3VxgnqYLDTfL9zIh/ABQxIT0hgNNjm43B54oyFgAXzVXyFJTV+Rdwmm1rl0kzKB1yJFKfklwus2iV9RfPi0l3XciBI4fA/W99uxz0belxp2O97Z0hTQsy+xTCkc6lm/rCy0En5RioAX9QkIhXRtbnhbLU3DHQWa6kzpOcPWPwPIVFXhX1IRP6ZtZmKU9pKfXI1QuWWgDC2QBpqQry8Xd53V/K0zV2oB4P259QPfLXT/TitHEvP/pR2SJFX/V1o45B5XUUIqNelFqJ5U6TTGDDDFYjqAilID3lAefP9TLr4FwHJdzE/BV3jPzAu984siAr9DT3aIc0eoH9IGiKc1Wp3eSIZDxKw8M74XAoJKyk+lmt9z4rAWEI=
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: img.png
+    visible: false
+    learner_created: false
+  - name: data.csv
+    visible: true
+    encrypted_text: 2a7VGJVcLToQSMlFp+bzdb5VQ4JfJY5PZMn/FwT2uvpaKFPE6ybKQbDXVsubtqIveVck1R0oVvMzqUNwR0XB14DaRyUrqoyP1aGZLE1GBTIIxsZlO4COpgtM//DumQwV9BkkVdbCAt+ywM9ZNON9uxefAEHfQQmZaKDeZpotH3kVJPMByl2WgGepov4VF/smnr2xmIyy0pT68egbU0uOlCzq/Qp4GHJqs4uisCvBKxhrMdGZYi6mus2qX7YX2iMWcvy2fy+dajV3vud09SfGAvzIbOeA15P59e69fGSOpuswbb+LUYr/tMO0cXwIvr+VejsnoMiXVtcISNvDRSoW8/FPEP80vtJ8996nqf92pMp2UAK+QTT87xSWuHrUe9iyF1we+kOIdWLfXHB5QOhJQjZansPyoiainK603cGwxZp/3F3dsr2J/tjZ4kiISB+9mPVAZsdJMXiUTb5n+6fvRMUu7FPIo0IjvT1qsIWqITwZqon4c/DWrbYllCYhDeXb8cjnvyM+ViquqGEwLxsv5o6J0tnw1RYF4QKL+DKNTslmANPcLSXW+m0RJjkRUH1LHIaj15rI1MK2oNmCGBiXJ7kYeOpVAsGB27H2viz3IP5PgOFcyDBRFXQr5N3S+NUzhY6PADPH7yxBMbtbmPEDukRbkiEqmDzOu3JYaYXprd8eh1AbUIX5Gj3l1Ic9m50JVifKslQqfnwqPQz9a7HQJAHFThou5jMorE47t+tfRqkk1VmnEfooJNMz8OYmSSP0E2B57c6oEWiYPcn+lm5PMu5keDIUcQkKnwBoLpzYi/y4GBtMrx6TKAK1xrsprKW1EBc5NsQRiLM6A9ZKR83sI9d6O1JvukCU/+c94e+7aaYQpJ2cywkC8y0Hi6jjdKE9QXoXA/E9N3T9m80/yWc/rBuIO+qAf7RKtjjpdUg3jlvRHbkEciCi0i5lmbx8vKbLkrslkbsy82rpIyI1uopqyhp3FfQPLg3jeXQEerZKBeiszZbzlC4XjUV14W7y+HhiFntuphB7LdwGnEKgIU5yK72z2dnfQWD9xWo1jSfbd5zS/v9vl74dKrf26qXDmQQxuEyg2mw6TDbsOhFWRhSsst7uBBgKngnXlpDttJ8gL9vN3QZOl3bp/VFncP5Iuf2TWSC5T/JIdmL4n6t+tOmW8g==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Math+/+Linear+Algebra
+status: Unchecked
+record: -1

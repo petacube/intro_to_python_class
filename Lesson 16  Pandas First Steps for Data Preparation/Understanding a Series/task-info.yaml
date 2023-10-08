@@ -1,0 +1,16 @@
+type: theory
+files:
+  - name: task.py
+    visible: true
+    encrypted_text: rWaGTjF1uCxfAA1JULqDgzKB48sO8G0U045zAlvSoB4p7CMw7KHVtrgHoi3kGEXTdGRQ81NF+rysRiZQTveOGSEC4ySt3U2vu+kZdHEDBqGD8yZ3QLiMmAET//vqtBEnBV+HyUy330Q15uiSDM47MS8IV+nYAD2pGcv8gqsTaphxPSJtgheum7p9qj9R1t+CD0ictVD3g8RGxIjH1wIHFOKlG4WVkjCzjFnhWGJ/tZJKuBB/fNtcWYt5liKYVUFLdPCiO4nR3+moRMoilLhq3R9MaOSrZblN7WG3ntrXT6voDcYpXcpPzRwWO2E02ew5
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: execute.svg
+    visible: true
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

@@ -1,0 +1,52 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 58
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 58
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 6ad3FOi4c6sBe04IkpMZDQKPPpJ36Aaf5stbFZMutsM=
+      - offset: 78
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 78
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: PRKdLZqs/KbAgZetNP69HA==
+      - offset: 120
+        length: 6
+        placeholder_text: '# TODO'
+        initial_state:
+          length: 6
+          offset: 120
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: jqxBXma5Ohs7UXlI2uBcsDOOjULaGnT3yJaZk4YGr38=
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg028P02ATMvpiwflhCvqzM0MvmEfeT3Wj2aLQeeIFAd+MYzcY5oTOlpRYWBaF8ySnSentIbLuso1FvlrfxK9lli7eVWI2o/PDLWnsbIDIg/vvjIB2yx/gmnXxyw8YPNP1tOel4RM5VY0MxYrI4WJtHb4bsQxWKbV2NG95TgGQDsoqw+HHBePSRQ25L9CLKkhKtvjFy4s1JndSayqzAHLH9eYETOn8HbjxvhEzoM7n/JgHHCllhNq/Wo1HqJUNnol84mXKuX4219CrOo0kq8hXZ33F1D6qb6tWDmVsq/+U9Z3C/mrKhm+bLBoBYT7UNQAKvK/w6w/4BQ8PEc6yq2ED5o3501xD+DFrUetv5RR53b6Q1MMIiiFXniW7n3xRNij5EhS3axF7w81kZCkGq8Jl8zznzOA2ELAG5VJoPjc0FOGupruXyWye59QW4fJr6i4PjG7iJ4ruHWXxZNPq4Lryj+3UCiCk6sx9chL8PJmPV0Vk6hL+LbUQRJVLYvFL0mR1oc7OFlUirW8ekKzOBc3wF6o70lhWbL6MB3+7/09vSiMxBQd8BfLY/CiXk7olSG5uHOwxZrCtc4JUcrAN765FydciSo7dBv9CJf5796TOxS38EapfOxzqqQqru7zE6dYp+Itb2eL33VWey7Oj3bzzI0/5z58Yjk/V2ia++GPcqqYQck5jTkDyMzJmgvgPfOG937MUS1tHEVpKcOIwFIKmIIJLV3TvfoQkPCVZUjbaVoM
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SQBRqOmMK4fWCM+s5FPPvW05j8vjGrtHdfXxBzaW2+nxMIegvQiisNpldZHAzF879v1h8hZ4uZGri1tjP9dk5/WpQnV1TGY/L/blRYBvYd3E/ilsewSxIXXuKZlyuqCGW4Bhh5hBEH44MdIyn3ZzAGERj9jyCHUXDXrl8jKpphEbwZ10hRq5uHtH9HrhRCTEvpXBqtuqY7Ea1HQsHkysgKNNw89BwfT6NRBlrJfZfHNO/zIuFlN8RAnBOnbZ0YcmvEx6HRXRt4yS+xVtoiBtaiAbB2xUoaxFSOFO9KS2MXw01GsdrlexIuxp4pAR06PTR+1p/mrDmyQeAIasdv10BV6nvnJ9iuZohy6ex5418Znh3I/+QFmLUPwrvGobVrPSEb1MTUKIx2hlEkU1udur8gCVTP5BUkQ+J68OaZ8VoYDZVTC578spsxHvF69H04+QG+4NNu5tQyWwGxXsW0sUdL/re4/5XTpWAPJeypgxc6h+h5/8rL9Hr81hu1yx77Ljmg1YyCBEt4eRLOO/UYCVEolvAfACRCHGFj/gsby+dEV2El3ktdE8Q+OPE9oLBvxPA=
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Basics+/+Random+Sampling
+status: Unchecked
+record: -1

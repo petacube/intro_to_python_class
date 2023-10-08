@@ -1,0 +1,52 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 87
+        length: 38
+        placeholder_text: "# TODO: shuffle rows of `arr` in place"
+        initial_state:
+          length: 38
+          offset: 87
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: hviIfrnxSP/VlaN4vnJCZkVcXhHyNkN1KbeVAhcXfh4=
+      - offset: 140
+        length: 53
+        placeholder_text: "# TODO: now permute the elements within rows of `arr`"
+        initial_state:
+          length: 53
+          offset: 140
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: o/yGb+PDaqDZBNpNLyGsFpcr3OKN+2FLfcjRMMmTwsw=
+      - offset: 209
+        length: 33
+        placeholder_text: "# TODO: fully randomize the array"
+        initial_state:
+          length: 33
+          offset: 209
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: o/yGb+PDaqDZBNpNLyGsFn7Jh0MvW7lO3yd6G+IeDi+DVVLsVBKDmdWak3e261q1
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg/b3/sl/ufyKTI3Aq9M2r6NZ9TKd4BXiiOerq6EYlSjyfho2WAVAwqkY4Pyo/Uddps8OBjZ7WxwzExXTKX5UWt+WFEBolkWB0ybfZbm07LT7mzvFKMtaZU7bdBcq5Cru7eWLo1vMlwqIHPi+oFwzvM0N6D/k3GRFNqrSmrNBpi0xB6qcO+8OjgQefzAtG/bPaS21+lF3/exHldvtw1kYhNLG9dykYjDaarmyj18ZrEq638IkLmufZCXAe2qAveSopLHF1xl1wh2cbrMCkvGk43iqgxBzGsOo2Vb9jDvHNYL2Bj0w91lXp8yZQ38WXUggrNitzrJkgwMLtlh/D6E3R0BJhCZD5m3Xl6HPNRgtH5F11jZcyeGBd0LIYd6CfFnpaWlBI79Xl/rA0j9UbJeEV0JGxxlI8FKoGPnC+d0x9GLOHfOo5ntrJBtYDkYNf6ddBZsK9Nvto09SpL/tYK5N57lvX5yZLerV63viGhf29XCTwS4T+HHzN2XMe8mEsUy9ez/hrMMayiFbuIyVwhCGIX4=
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SQBRqOmMK4fWCM+s5FPPvWGTiK9IdgEyyEjV7b/B+/7dZLqvraRTWstwl3rvBWr/O+rxgU1FqTZP/CtjXAcKtFYSJ5GbQILPpeegxCn6d9+PbC0aZHzCuCVgZdbnHG5f7Zr1TAzwK4bPKQisLu9t/NrTLNItGbFidRmaTANKClDQ3+KVH674EppkYE2V9LJuMUeZbn0Bv1aPdksIl4D1/ZOxz8mxS4ZoxpuJK5UsXHSQuNO/dMAKG8VZGpJJhMZsJKrh64E8o2x+/1PPYYWMJ7fw8a6EkoA+MElozqGx/7GuDnJGql4rhZDp4lLCrgD76dbHb09se7e86Utl7SN2g4XxbE3/0V/s77Z/hf35tCprKA6BiX25l971O5aKpcHQ6s5ZtABzlVr2Z1cIpdS34a6g4QZeRiwsYKHZVtchWGzBhmBAbExczP6h9XYF0fRkzu19G3Goe+eijtER+1R8zWFFe4+D8hca+irIt9RnPuNyu7ovwuVPS8w33bE9afrm5lZ2sPuUPxmca6nMYccjmGNbO03Z5BHBj5c8PH9pBejF1jIGg9a1ZxRX7Wlqm1kHmtI1Jr0ldYSFTQ08fcsnPiocri8iAP/QjCVqKrK9QEuTQ2zxW11ot3OkU8T4YOQCmpeWgaX2Y73gbiv62EnQ4zFz0lWTo1TvwlmiOt7E41B86cMFDHKwe6pRnUBVzhWFTx/x2Xx3h+SD2g6ms4YLzH+J9R98mz+YHkXoorTZMCE2JMfrx68WcKXPAAknkzpZmxgefAakNMqPXleVj0DsDqbhEiLUDCSh5MugSXYe+tRFAaLspOnVEjNL/dAZMCPGnRAro4fenoLGQkLyFRhSQ7FnLfUAlC9yeW2oj2iXCg8Ag8gm0J6fIxUN/gnNw/Jd6e14NPzDmgw/BmP9yZsGkFhpfe9t2L4xNTYw6nnsTgwMkrHQH23RpDBkL6QqIyKe9CYr/QpfqYRZ1DOGdqpWVxmx/t5y7cRi6Y827Yy4Irz2Go0KxeNXgvqSWggpDW8zWP2aYDPegSpSvWWcsSL9M4njkOWMeabyUm7XlDHbGE1FZCPvi07+GNkfTRErXTgX1+criOowtntc+jV66ixJE2n1Qc7lcQ/Qa8EP4sCOQ7iSAvyPnskUFzsFpgnUBsBkSbxfRqnLqkBgEKmbGzAtXBzl5XFUl4a3yZ9QuQ/w8kdkfEQ/+2qoZzHcBOaf/YCzS5UBikv2tGclGoMSrcO/oMCse/1Cx5ns7sB3XOMgz4M77T3t3+dF4j7pg9lTspvqO6WldW4tODt1qljDHdFbjODvzCcoR2rD4VDEc0mne91uuM5rhd0iRe+dDIJV8rIn9UtS4VlULPosaGu3NmHNTDxxza03jtVm4DM/7/97296Jld4yErGJEBs5Dwqtyj8NMJJS7Bn6ODG6uSXHsSt8jsHx6o5QTGSes29Bx6chEKfZsIfUa4w4InTPDMdjAKvzz/J7SUdSUR2ntS2/8W9OCcvm1kts8xT6xCk95MbGVh1I/hGFXGlmtR7IuLy9ib0Qx0H1KmiROfbayMi96i833+xtAgpC3I5F/7pv7regsffmjSJpymEyhQuxDe7ho296WxdXJh4iwFmm+/yJeZrcEhDbyHp2YPmXJhXjdGRMLSRCPRU6ImdFZc4SJqdA9nhqBq4gkFpnia4Gz8ikGODBa1Int9xK20GhjHSsP7iEoxOhJmfmWnAB5z9TEQQsWTLXx/oZvvApUtT+UxLqkNkFlOQpSa1mHN9bdVLkQodFWbEA==
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Basics+/+Random+Shuffle
+status: Unchecked
+record: -1

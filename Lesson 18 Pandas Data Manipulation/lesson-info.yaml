@@ -1,0 +1,8 @@
+content:
+  - "Adding, Deleting, and Modifying Columns and Rows"
+  - Creating a MultiIndex
+  - Selecting data with MultiIndex
+  - Stacking and Unstacking Data
+  - Reshaping and Pivoting Data
+  - Merging and Combining Data
+  - Transforming data

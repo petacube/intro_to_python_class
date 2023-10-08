@@ -1,0 +1,52 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 92
+        length: 14
+        placeholder_text: '# Sort columns'
+        initial_state:
+          length: 14
+          offset: 92
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: +U9L3HNsq/cSv7XyP4Omo+n2kjC9wm1/xP9YbtERw4I=
+      - offset: 113
+        length: 22
+        placeholder_text: '# Indices to sort rows'
+        initial_state:
+          length: 22
+          offset: 113
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: G5yEVWtPx6ioW7h2O/iJ+ar3bNsA6uIrcKNBXu/JXTo=
+      - offset: 140
+        length: 29
+        placeholder_text: '# Sort rows using indices ind'
+        initial_state:
+          length: 29
+          offset: 140
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: bSgffy3M7HlSwooY+Q26dA6QeOWktJaRy+78qzjMlRDxi10uHtbfMnKiabaJ/8RT
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg2Zo90vR4erSdnOrqea8FLZ8zjtucK6FGfWVio4iyR5bLGkRT8DRHtwke0/240HYSe7Z7xLaaj8DDn+BYwEGUkrg+DWglNkSr2SltuSYFNTUT3dTMNRdAeGqbANK5V+8T9MYyWUtqYbGfc4LTZRIGOwmi4TvNSJx/zcGdUoVfYgJBqzosKHFhmguKRmQrevfw+FQKn729qX1AK5DAdeSd7tJHdb/gRh4Wf+tOZHKKjLHOHjGgZjATniwCMK7SUcCMUba2s74iptxT7GX8Gii7wUkcfUIMmB/uL8IO04DYbBuPyEFh5EAoJc3cYinQ7a2J2RR6JwMhDhCI+sktGcjsSmbp2gvJ89H2rvDJg/MQRkGfqadeoQo2T4Zb67wcNo0+Lnd8y3wI1CZ/E6pXbibVt2vF8cm8grTjPyIcB4+mXr0P/wGb0UKaNAeFC/Iz+e9Hg==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdQTjn1YHMq4gonGgZk0sm4eaZVpNulrdX21h+8II5O1L6lTxEVJ9qqFmCrak8GnnHvlKkU4K5Fnn031PCct7v4WHgKCFZFPrWWnsKGZ4zntzN1SqEajLXiQsy7XWC9MAY7wWmiR7OLc9BcL2cgqZlHLyGEYIAdpJjoA2zbau0hngEdSwp1V+DGAkF3l3pce2NrOuQcvK5PusZt5tDpp77qI+gD1a6Zu1J/yn6RAH0eCcjOG+Og3P5sgg9bOshho88Y67DfigYq1RSuBqWqQFu6MSd43LAzmc7sPjq6Oye7oyhbIMpATusXMDfHB4Y3mmS1OKecg7FW3qrDsz3VfJMg+VJHuQHI8ByrrDqDa0QSk7cDcaTCslQiPC7tMsB2jf0aTSOtdYeaDHLD38m/tI++LpWGEX67op5Si0AOUt+a6canDxdhWZ6q0awjxYB5ix0pT+L18Hs9uSb97AJkxxi+zgOpxLK/vdR5pHbsLxm/HJC6yZLMBhpqire494B52q68MBwgnly9jyfQgOEXpyLVK3knmaDwd9CTHorIGodysmIvmapOeqQRNAfIVsSnSnXsIlnjf75xL23BTuZ24Jv0W0W73FIH3PwD5UQQHC0vLjiz6Cj16cNZS0SBwKPJfpGdCEeKSkzZ6dnT8x9ESvd9d6/z1gkb76SpOfEvF2IFbRkZeXngJa70HWgKgF0/xTKZICSHTLh2baCdDh4PUSrtzP02VjL0n8CM+o+WURVZaeM8tqFvsvr9OV3pVcbXOGguV3i1lzpaKO2vvGT6MNmNuBfd5TwRk1obxK8WYr4qi0sOny87WClFcQZBNQqVYNxfRuha3vJex/Gi46HFar50gpGppsAmVgkd9GJYY4BTsSEjKepgj83r8RLBoKY4Tygj0c/GEsy8rAzPgZs759ACcXw/pek6aX3fc1W6WhnhSCZ/zEhaZvERtVt56Celvli1WU8mVW+m0VsCVnqpz5kkJjGivPVQ0hnLl+H6/R/cpKs0P3I3g6/m/C2JfVhjycETxYIP6PjhtIdov/O+KEIjHTUmr+JDtQIoN8GWwxOxy6Y3RblCZMy7GFN0FPbuJqig8mTwlnnhMMIxJ1jPkHtzpUgC76CbRQkzhwP8P18DR5efrByW3Crgq1o2+tvKCWDBSIphe8KrghFYrPT6lF2uX6efbndbiC99AA+ecTllWrNIzvS2H60tAlxP70mW1/IAAB+DU928EMACbsLLrlDb5w26n2zeI1Tj2sB1Ss3EC1ckTP0L2El9FMMbHP+gwjjJgVzZiFGHrubTLcC3rrOGB8jrN195PPMzQiPo9VnN2ya8BZ/69m6OhOp7isouvRrm4eTIu/sMrmXeWDfirJtlAvOHTrulJwDln1FB0LqD+lKPGptW1diDtFcabhlIBcmQ==
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Transposing+Sorting+Concatenating+/+Sort
+status: Unchecked
+record: -1

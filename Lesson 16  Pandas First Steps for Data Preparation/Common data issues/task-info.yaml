@@ -1,0 +1,53 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 316
+        length: 44
+        placeholder_text: '# Remove duplicates based on the ''ID'' column'
+        initial_state:
+          length: 44
+          offset: 316
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: EhYIWr7OGbVrnnbyoErzNguPNH8fK91yoHgAKTnt8PTdJg+H6C0jdR4KPg8fB8yD
+      - offset: 383
+        length: 97
+        placeholder_text: "# Identify and handle missing values in the 'Age' column, replacing\
+      \ the gaps with the column mean"
+        initial_state:
+          length: 97
+          offset: 383
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: hj5vt68AKpeOUHfQhorlZ8LP72Dg6Aigm10ep0G/z1Wc701dEYpJFp/tQJ+ulfy+PqVLALli7uy9MF+wJ+MixlQT5HPZGLzfHcvXHladihgMd7DZlWCJYvf6nHeRPrVs9/uQG/nva4wBUqeEAe3y2Q==
+      - offset: 518
+        length: 82
+        placeholder_text: '# Correct inconsistencies in the ''Height'' column by converting
+      all values to float'
+        initial_state:
+          length: 82
+          offset: 518
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: FCwszRc8+a9+M4IGxrx+Li0pxhCGsBvBudsmOlEXNYfDogeujBfDuhbiZ1DGojoo7AZhFolrSbiHeaccuSThot0Ypx/NkCA7DgKDaXZN1GQuczbV0BIPkILlga1dcjpU1hU9hMqr2Znr+3CARJsRsw==
+    encrypted_text: LXpX8XC+Yepv0fVMN0dimIigCPgwlaEhltJc2j645H6oqukVHBtQwzoZLNxsx3wEzyUtRuBemtB/pr7aLth8wbT8RekxGmKJJLLggw0fNsO77Mz+UkxmXK12AMVy9WNSBWMJ5PKBCmFM24rN8rNOQ8HmyAz/QyRlO//Vk4K009w5ASjQrdVcOLCoOo27+ZwkrT5nRPxNh6miYpmloE8U/vwPMNtX6jkOdOO+6ZiF0xNZ1Ez0EyhW9ZWPJe57gS32o+mozpw0OMLSHKb/jy7F/5Vm7GMUSdyx0AOWho1FMsbCtYgAO6sY3grg6yUmpLmTbWwbnggEqF55oYNiHGWieWTIcNLT58MqcOMOELW3ZTiGfxoZpklwDJWxs1eodgCac2hVRgzLV46+ANFd7uPZtcwiD5V0pYX+mLA2+eF1Bfh408iQQQnUhmW5ncsFk5FkC2BwXnZiD9W6vYmIrNlojz9wsMUcVqeqTnYS0VpSYmnANvrUdnySxjZPCTt2mG4G6XiPnmJAhLyw4qWwTh1UTKROYC8pgEpJuwQmjLsIreTu6Tdccr99DXU59AT5QjZWNhKKZyQLNAZZW+M7F8TBhiEAROwUmAO5/Z4homZhImh34dm85efU/qyUBC+43o/ciOX516kRRbsu2Rr3qUwmbWrlviUCaSPBjqRcZGtye3Wik5dLn8y1ehOgEUv8uiFopdNqejsnn4g/MIAGmYZjNDxjA0LEAqXcx+3f9OOwS/H2anwsDz3cOEl+c2AJDiBcKD10VBGw7uB4vpKvdaklpl4QjXktkj3/lDl+UFilRKe28G07Nhb4Ey4AeNlVl1hGS+WQLelqfPLqcdm+Y9ZxyqmQCHTwNz35XWRLNUcMhINlkix1b0EPXwE2MfVKUfiLocPnJekwoOTW+ZbyU20yS43FU2JK02zVaf483dRPomttyuO2l9NYPKPUG8xbLFOQQBV1Xz3IEIFk/iMMeMBlf8u7n4+DwRLPIS/KZov51lgr83uXxtI4gq6C7ZDSgzcWWmri5653cQ5E4yV15UggJn3tu732WM8p7s1mNNvRnkACe8wKJ3AFWSHggIbiU9WRyH9IGKsWohb5IOKyQ3j4V+RvDF+rgsO4ijvpNo7mO9kSmGHW2G21zgJdpzfKDp33uVZrN0O6DQh1R3T0Q2zsevIWe4K9w7EGDDB10wJDQcj3AAWH8UgpKEJ0IhTXYIBbfzLk/q3dOQIgjG8c9gmhUQ==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdWBrq+6SUGuTHdcnuEFqdVEG2y0OeRmAKbMwvAVS0MQywOR8sLI/HtgIT+XJFjqEGPACH3GwfhEds28ZxO+1FTeczMln33vV1RdRP8dJfqYuhmilKTVgEgAt5+HqcLrLFpRyGrZO6PqU8psuK4z1roZt2jlqvp9eLpieDekta8Sw1tmJRNFf80/pwwnAxrn5XC/A2K3Px7BCj9tRurtv+BI7aHt5xWQsBAkRxuRU0TgSE7cLJlyLgmVk+Afr4q+7+tQ02QywFKlniekosOR2R1ePDE9qG0O77RwWjeC1eAJ73HMI8/57bQTo/U8UxCeMBtAV03FlMMUpEJd7jB/NOGaEFPpSxpYIlBbhi59f6mgOJKd9YxGAtUl+vRXd0xV2XZ9HxIlMrTO1S4NuFMy8Q7O6qBMSqB7kjVbX4MEdnxWajUwpf8BG+jkG+VdS7lXtTxWd4CmedgMTgYQ+BmDO3k78/0KNk3ZSaF8zHRP0w28cTQnHGqpUkgx7GESJuM+n0Pj6fKoX67DG/Z0L0rQQmVKjsmZIx6c9dByyYL7nYQ7HMFJDp+Rd1qG2+Vw155HfspO+KLVUkA0pcoEXfg+CNE17LcRhTcy4j8nt5J9cY6sAfbphQDAQa9kwzgLzdngZO2oE+9H0M0mXfos5QFEGX4ylRs/RFFUYlX1FU/BAHq/W3hp4XpTRYKK9RYP3gyBMOJVjmYtO+RipWlsc9ybWFfd2mo0cXzGKSuY9E3lzTC3UcOG9VR6vOMPLC8LRLMlV3IAw9ROciTQn0bRzyBNdJ2q2fO6T2mKC9EZiHZgIIt5FAzy9jDfvU7JYPtZGQ6l4c/E6Gp6e5oQv4I0jlTBFhha66tawWqpDDL4TQZzfpfie8QcLDGw0Y0eQa586/oeROEo06tWt1MeeBKVdcbKsMfZVD9f1ryiNG2Bi3YOyiLNotjWG95YpfW3jBPR6ob2Vs65A5L4/fyyehYLgukZgHOvIp/5oD5PkmtXRzOQVKexoTM27ActVU0gcZf/o/3CNh3TBbnRxmFGzDA6AcuUlVha1K3x6Pz9VEczZs8lHCNHUph/oUYAuOPwh3kepKzfP2qzbUtZID6quVQr/hOk1R8bqBlaGo7hsxnVSZ00SQ7eaR4lbb2lf89AO5u005QKYHqbfNrZ6HwymroMPC36Rmu6N+3C044SSGoHUkvuZnisKZeE6qhRSoTnCC5r/8nMv6SWSNtyDM6I1zPSIfH5HGIYKir/kxZKphhJdgX9ml8z/
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+status: Unchecked
+record: -1

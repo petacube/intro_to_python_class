@@ -1,0 +1,17 @@
+type: theory
+files:
+  - name: main.py
+    visible: true
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg9hXxqcXMUqKrusgcXDnzKGLRsz0g+sZ/tQ1vDVuB9ynMaTW9zIB5Xt6iIamf58rxui0CEt0Yn+wcwsTkgO2T3+v1o8FSl9+AKK4LCTOx9lqveQmedgPwTpfP4ComeWNhsYkILewoNTWKBAxPgWWUKgXe4H6vbYjpu02Kxfg5NwwhO/hocck25uklo8Ywc2PPJaV1bqBfrX502/m/+PUJBa4KbCATN9Jk/P+FPDOJRDk6uDpu/Ew/iVcx7O9/kJwrqTO+h3I5iXnyiMyxbkdJDxICr76fKLeEo0HQvQq8kXqLphHkEPm/fIwN5is0z/bY69lrGHB17nBjOgNaADuE0MYat9yzuzFEkhzT0kP17qDSI4P/XXw0Fr8FBeeO5RfbA==
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: execute.svg
+    visible: false
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Basics+/+ndarray
+status: Unchecked
+record: -1
+post_submission_on_open: true
