@@ -1,5 +1,5 @@
-# Introduction to Python course  (JetBrains Academy version) [![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
-<p>This is an introductory Python course by JetBrains Academy.
+# Introduction to Python course
+<p>This is an introductory Python course by Petacube Inc based on some content from Jetbrains.
   The target audience are the people with little or no experience in programming who
   would like to start learning Python.</p>
 
@@ -10,5 +10,4 @@
 
   <p>Have fun and good luck!</p>
 
-  <p>P.S. Want to contribute? Feel free to send a pull request to this course’s
-  <a href=”https://github.com/jetbrains-academy/introduction_to_python”>git repo</a>.</p>
+ 
