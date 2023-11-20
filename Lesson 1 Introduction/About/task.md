@@ -24,6 +24,19 @@ After completing this course, you should be able to:
 #### Prerequisites
 
 You don't need to have any previous experience in Python or programming in general 
-to complete this course.
+to complete this course.But you do need to install the following mandatory 
+tools:
+* PyCharm Community Edition 
+* Python Miniconda with python 3.10
+* git
+to do this run the following commands from cmd.exe
+curl <pycharmm url>
+curl <miniconda_url>
+./miniconda.exe
+./pycharm.exe conda activate <env> conda install git
+opional tools: 
+* Visual Studio Code
+* jupyter notebook
+
 
 Good luck!
