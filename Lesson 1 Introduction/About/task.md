@@ -30,8 +30,10 @@ You don't need to have any previous experience in Python or programming in gener
 to complete this course.But you do need to install the following mandatory 
 tools:
 * PyCharm Community Edition https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC
+* PyCharm Educational plugin
 * Python Miniconda with python 3.10 https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
 * git https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe
+
 to do this run the following commands from cmd.exe
 curl <pycharmm url>
 curl <miniconda_url>
