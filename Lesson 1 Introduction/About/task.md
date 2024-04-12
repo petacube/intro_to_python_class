@@ -44,6 +44,9 @@ opional tools: [task.md](task.md)
 * jupyter notebook https://jupyter.org/
 * ChatGPT https://chat.openai.com/
 
-
+once you downloaded the tools you can clone the course to your computer
+git clone https://github.com/petacube/intro_to_python_class.git
+that will create folder intro_to_python_class on your pc
+then you open that folder with pycharm. 
 
 Good luck!

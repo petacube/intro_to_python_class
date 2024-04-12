@@ -11,4 +11,4 @@ We will cover very basics:
 * git push
 * git pull
 
-[Git Cheat Sheet]()
+[Git Cheat Sheet](https://github.com/petacube/intro_to_python_class/blob/master/Lesson%201%20Introduction/What%20is%20git%20for/SWTM-2088_Atlassian-Git-Cheatsheet.pdf)
