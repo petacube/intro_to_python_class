@@ -26,17 +26,17 @@ After completing this course, you should be able to:
 You don't need to have any previous experience in Python or programming in general 
 to complete this course.But you do need to install the following mandatory 
 tools:
-* PyCharm Community Edition 
-* Python Miniconda with python 3.10
-* git
+* PyCharm Community Edition https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC
+* Python Miniconda with python 3.10 https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
+* git https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe
 to do this run the following commands from cmd.exe
 curl <pycharmm url>
 curl <miniconda_url>
 ./miniconda.exe
 ./pycharm.exe conda activate <env> conda install git
 opional tools: 
-* Visual Studio Code
-* jupyter notebook
+* Visual Studio Code https://code.visualstudio.com/Download#
+* jupyter notebook https://jupyter.org/
 
 
 Good luck!
