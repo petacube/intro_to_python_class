@@ -21,6 +21,9 @@ After completing this course, you should be able to:
 - work with Python modules and packages;
 - continue learning Python with other courses, offering more complex material.
 
+* The course contents is frequently updated and will be found at 
+* https://github.com/petacube/intro_to_python_class
+
 #### Prerequisites
 
 You don't need to have any previous experience in Python or programming in general 
@@ -34,9 +37,11 @@ curl <pycharmm url>
 curl <miniconda_url>
 ./miniconda.exe
 ./pycharm.exe conda activate <env> conda install git
-opional tools: 
+opional tools: [task.md](task.md)
 * Visual Studio Code https://code.visualstudio.com/Download#
 * jupyter notebook https://jupyter.org/
+* ChatGPT https://chat.openai.com/
+
 
 
 Good luck!

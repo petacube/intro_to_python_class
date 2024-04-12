@@ -1,0 +1,14 @@
+type: theory
+files:
+  - name: main.py
+    visible: true
+    encrypted_text: rWaGTjF1uCxfAA1JULqDg/1wX+Gk34DKDg87Ov5kI9h5U/q3SD7OA4xelGKv80sqfPpQcGta4oJOP78b8GQQNyBN+8pCWM0vx8KFayRbvN2FnDwR+vJYqQ5CB8jhjPqULl8Y8YlUdSQMveDdHbQyxfy5VfKagZ7PD70bwzs6kc+gvjxeLBYuSrVg80zXTSLzNVI5/Bn03V+fOLf6YuMWfs0baVRMEvS2E6BzrgSUvnW6atX/Fr2GMzsz280RKWAdbNI9mnFtqop9Ao54hqDuQkGjGNMcuh6mKiD6nX9+W/dHGBbK+LJzOYOm0TSDUHtmeD/PNgkanbS+3fXTVk1VcfmNIZZgUmMDqJUdoqU+zMpLgednRhXBbRLBe2fdHh5Och8XolOR/f6ImQCAxDxO0nqIgsUUQD0kdYPWkTIwnKBKb40YUpMkX0K521WSvUS2JMXVWK3ULPs2XZsi2qYCDKsKEHNgcUU1Mm81+c8j9rh+T1kJiE33u+rbR6G0E+d7
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Introduction+/+Why+NumPy
+status: Solved
+record: -1
+post_submission_on_open: true
