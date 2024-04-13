@@ -4,7 +4,7 @@ a = 1
 print("a = " + str(a))
 
 # Assign "greetings" to the variable using the assignment operator
-greetings = "greetings"
+greetings = "greetings2"
 print("greetings = " + str(greetings))
 # Reassign anything to the variable here
 greetings = 5
@@ -15,3 +15,4 @@ print("greetings = " + str(greetings))
 a = b = 2
 print("a = " + str(a))
 print("b = " + str(b))
+

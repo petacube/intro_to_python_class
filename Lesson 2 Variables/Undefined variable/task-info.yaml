@@ -4,10 +4,12 @@ files:
     visible: true
     placeholders:
       - offset: 19
-        length: 14
+        length: 8
         placeholder_text: variable
   - name: tests/test_task.py
     visible: false
   - name: tests/__init__.py
     visible: false
+  - name: __init__.py
+    visible: true
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Undefined+Variable

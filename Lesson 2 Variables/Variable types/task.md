@@ -16,7 +16,10 @@ they are created are called <i>immutable</i>.
 
 In Python, there are two main types of numbers: integers and floats. The most important 
 difference between them is that a `float` is a number that has a decimal point, 
-and an `int` is a number without a decimal point.  
+and an `int` is a number without a decimal point. 
+
+`isinstance` function allows you to compare object types
+and check if objects belongs to a given type. 
 
 For more information on this topic, refer to the "<a href="https://docs.python.org/3/reference/datamodel.html#objects-values-and-types">Objects, values and types</a>"
 and "<a href="https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy">The standard type hierarchy</a>" sections in Python Documentation.

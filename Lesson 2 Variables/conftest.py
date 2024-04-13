@@ -17,3 +17,4 @@ folder_list=[
 ]
 for f in folder_list:
 	sys.path.append(os.path.abspath(f))
+print(sys.path)

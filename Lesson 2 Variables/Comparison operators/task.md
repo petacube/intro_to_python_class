@@ -37,3 +37,10 @@ the variable `two`.
 <div class='hint'>Use both the <code>></code> and the <code><</code> operators.</div>
 <div class='hint'>Use the <code>!=</code> operator.</div>
 <div class='hint'>Use the <code>==</code> operator.</div>
+
+Comparison operators are type specific. For instance, some types
+have build-in order like `integer`, `float`, `date`,'time` but 'string'
+does not have order built-in. Thus, when you compare strings you can't say
+if one string is bigger than the other. 
+
+You check if strings are equal or longer or substring of each other.  
