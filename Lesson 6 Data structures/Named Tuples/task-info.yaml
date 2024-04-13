@@ -1,13 +1,13 @@
 type: edu
 files:
-  - name: tuples.py
+  - name: namedtuples.py
     visible: true
     placeholders:
       - offset: 0
-        length: 225
+        length: 978
         placeholder_text: ???
-      - offset: 228
-        length: 0
+      - offset: 0
+        length: 978
         placeholder_text: ???
   - name: tests/__init__.py
     visible: false

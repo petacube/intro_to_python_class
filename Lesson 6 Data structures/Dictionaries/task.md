@@ -30,3 +30,10 @@ Remove Gerard's number from the phone book.
 Print Jane's phone number from the `phone_book`.  
 
 <div class='hint'>Use dictionary indexing, e.g., <code>dct[key]</code></div>
+
+## Ordered Dictionary
+
+An OrderedDict is a dictionary subclass that remembers the order in which keys were first inserted. The only difference between dict() and OrderedDict() lies in their handling of key order in Python.
+
+OrderedDict vs dict in Python
+`OrderedDict` maintains the sequence in which keys are added, ensuring that the order is preserved during iteration. In contrast, a standard dictionary does not guarantee any specific order when iterated, providing values in an arbitrary sequence. `OrderedDict` distinguishes itself by retaining the original insertion order of items.
