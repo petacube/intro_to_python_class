@@ -4,24 +4,24 @@ files:
     visible: true
     placeholders:
       - offset: 54
-        length: 10
+        length: 11
         placeholder_text: '# divide the number by two'
-      - offset: 87
+      - offset: 88
         length: 10
         placeholder_text: '# get the remainder of the division of the number by two'
-      - offset: 123
+      - offset: 124
         length: 19
         placeholder_text: '# multiply the division result by 2'
-      - offset: 162
+      - offset: 163
         length: 42
         placeholder_text: '# add the division remainder to the multiplication result'
-      - offset: 227
+      - offset: 228
         length: 30
         placeholder_text: '# subtract the multiplication result from the initial number'
-      - offset: 274
+      - offset: 275
         length: 11
         placeholder_text: '# perform a floor division of number by 2'
-      - offset: 302
+      - offset: 303
         length: 26
         placeholder_text: '# raise the multiplication result to the power of 3'
   - name: tests/test_task.py

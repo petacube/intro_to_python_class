@@ -38,5 +38,7 @@ if __name__ == "__main__":
     nx.draw(MDG,with_labels=True)
     plt.show()
 
+    
+
 
 

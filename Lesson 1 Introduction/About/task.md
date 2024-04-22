@@ -33,6 +33,8 @@ tools:
 * PyCharm Educational plugin
 * Python Miniconda with python 3.10 https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
 * git https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe
+* jupyter notebook `pip install --upgrade jupyter `
+* pytest `pip install pytest`
 
 to do this run the following commands from cmd.exe
 curl <pycharmm url>

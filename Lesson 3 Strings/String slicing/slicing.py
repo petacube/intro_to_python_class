@@ -4,3 +4,5 @@ monty = monty_python[:5]
 print(monty)
 python = monty_python[6:]
 print(python)
+
+print(monty_python[0:5])  # Monty

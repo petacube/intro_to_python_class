@@ -12,3 +12,13 @@ files:
     visible: true
   - name: data/README.txt
     visible: true
+  - name: kuzu_and_networkx.ipynb
+    visible: true
+  - name: tags.csv
+    visible: true
+  - name: ratings.csv
+    visible: true
+  - name: movies.csv
+    visible: true
+  - name: users.csv
+    visible: true

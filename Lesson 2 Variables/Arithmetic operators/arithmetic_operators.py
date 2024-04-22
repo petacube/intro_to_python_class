@@ -1,6 +1,6 @@
 number = 9.0        # Float number
 
-division_result = number / 2
+division_result = number / 2)
 
 division_remainder = number % 2
 

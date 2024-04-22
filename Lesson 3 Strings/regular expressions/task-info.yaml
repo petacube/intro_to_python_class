@@ -4,5 +4,5 @@ files:
     visible: true
   - name: __init__.py
     visible: false
-  - name: kuzu.py
+  - name: reg_expr.py
     visible: true
