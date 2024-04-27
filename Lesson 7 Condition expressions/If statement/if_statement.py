@@ -5,7 +5,7 @@ if name == "John" or age == 17:   # Check that name is "John" or age is 17. If s
     print("name is John")
     print("John is 17 years old")
 
-tasks = ["task1", "task2"]    # Create new list
+tasks = ["Common File Formats", "task2"]    # Create new list
 
 if len(tasks) != 0:
     print("Not an empty list!")
