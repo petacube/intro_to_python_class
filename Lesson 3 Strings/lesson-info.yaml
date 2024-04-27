@@ -4,6 +4,7 @@ content:
   - String indexing
   - String negative indexing
   - String slicing
+  - Home work assignment - Strings
   - In operator
   - String length
   - Character escaping
@@ -11,4 +12,3 @@ content:
   - String formatting
   - F-strings
   - regular expressions
-  - Home work assignment - Strings
