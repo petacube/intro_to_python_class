@@ -12,3 +12,6 @@ content:
   - Dictionary keys
   - In keyword
   - Set
+  - Generators
+  - Async functions
+  - distributed computing
