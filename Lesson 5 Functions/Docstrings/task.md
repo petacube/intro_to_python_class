@@ -10,4 +10,9 @@ Docstrings should also generally be written for module, class and method definit
 Add the following docstring to the function defined in the code editor:
 ```text
 """This function adds 1 to each element of the list."""
+
 ```
+
+Update docstring format to epytext (Settings->Python integrated Tools->Docstring format) 
+and use Alt+Enter to add automated annotation to function
+

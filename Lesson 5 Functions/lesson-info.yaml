@@ -8,3 +8,6 @@ content:
   - Argument Order
   - Args and kwargs
   - Recursion
+  - Higher-order functions
+  - Function Decorators
+  - Unit Testing

@@ -68,3 +68,24 @@ import functools
 lis = [1, 3, 5, 6, 2, ]
 print("The maximum element of the list is : ", end="")
 print(functools.reduce(lambda a, b: a if a > b else b, lis))
+
+def compose1(f,g):
+        return lambda x: f(g(x))
+
+# why is is this returning 5?
+compose1(lambda x: x+1, lambda x: pow(x,2))(2)
+# because 2**2+1 = 4+1 =5
+
+def compose2(f, g):
+    """
+    
+    @param f: function or lambda 
+    @param g: function or lambda
+    @return: function, that is a composition of these two function
+    """"""
+        def h(x):
+            return f(g(x))
+        return h
+
+# why is this returning 61?
+compose2(lambda x: x+1, lambda x: x*2)(30)

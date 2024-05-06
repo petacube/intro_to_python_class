@@ -60,7 +60,7 @@ coordinates.length == 2
 '1' <= coordinates[1] <= '8'
 
 ----------------------------------------------------------------------------------
-divide a string into subset of size k
+problem 3 divide a string into subset of size k
 ----------------------------------------------------------------------------------
 A string s can be partitioned into groups of size k using the following procedure:
 
@@ -98,5 +98,37 @@ Constraints:
 s consists of lowercase English letters only.
 1 <= k <= 100
 fill is a lowercase English letter.
+
+problem #4 Merge Two Sorted Lists
+Merge two sorted linked lists and return it as a new list. The new list should be made by splicing
+together the nodes of the first two lists.
+
+Example
+Input: 1->2->4, 1->3->4
+Output: 1->1->2->3->4->4
+
+--------------------------------------------------
+problem #4  palndrome number
+Determine whether an integer is a palindrome.
+An integer is a palindrome when it reads the same backward as forward.
+Solve it on two ways:
+Way a. conversion to a string
+Way b*. don't convert it to string. Note this a bit of tricky problem you need to spend some time to
+think how to solve it mathematically.
+
+Input: 121
+Output: true
+
+Input: -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-.
+ Therefore it is not a palindrome.
+
+ Input: 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+
+
+
 """
 
