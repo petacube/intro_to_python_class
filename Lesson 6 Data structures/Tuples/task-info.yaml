@@ -6,7 +6,7 @@ files:
       - offset: 0
         length: 225
         placeholder_text: ???
-      - offset: 228
+      - offset: 306
         length: 0
         placeholder_text: ???
   - name: tests/__init__.py

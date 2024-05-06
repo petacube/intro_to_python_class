@@ -8,7 +8,9 @@ my_tuple = 'fun_tuple',
 
 print(type(my_tuple))
 
-
+nested_tuple=((1, 2), (3, 4))
+print(nested_tuple[0])
+print(nested_tuple[0][0])
 
 
 
