@@ -6,47 +6,16 @@ files:
       - offset: 201
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 201
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: xrOiceaE2Mp3Et+2v5y3YlOeslg5vPhFmg/b5xj7O0Y=
       - offset: 216
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 216
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: 0t6WdoJvv2Ceiab2DEbHWw==
       - offset: 290
         length: 3
         placeholder_text: ???
-        initial_state:
-          length: 3
-          offset: 290
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: KIM7pgqY6aQ2EDSsFu7Qvw==
-    encrypted_text: rWaGTjF1uCxfAA1JULqDgwtqQSq6d0PYTaoL8FAmEYCM4/DdzfNScpZ3lGOXz1V0itOMnyugMpQ3qOZ78SdAkZNvWaLJV/7+TEyu6sHQDDK5g/4yzTYGHfZV+7O62waIJvqPYMyFZMiIruR57diCEtTi6W7Bkjhn0EDxuTAeVOpgGFGdD6oI7XVGF3ghLXfFO0jiCZFC6ZFSUEC9FaMXnELa2Ys5tybmuSu6lhAwHiw2BNIjRGXtCXPpxS54GCqosd1gwWVdXhIqazxghgec6IZPdsNJxMOCiz4eOg3GER8cGYvzzE1FMZSPTTLeasktr/DNiPA7C4w/cAtYraY3DlecUEi1lCJ4KP9TfZ1qSCF8m2hReKFnOYWgAT7F0bB2dhduLQsQ4QD0Qs8ZeBHB8b63+Ym+mCZppxUHo4M0szyQwa7uSUO2BQHZqoa/wbrpETy1a07MODaXWhoGXJD3zQ8OvbnRw2iP7c9ddMxfbpOyw+klQsQSUbuluPjB0BPR
-    learner_created: false
   - name: __init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: tests/__init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: tests/test_task.py
     visible: false
-    encrypted_text: XIlL2u+4gqNTqO7La77YdUx07qE20Rm3/g3w5OkBUmIoo4gk41VTLnR3Kw1qYnyHls2hGruLBdno+6voSDhjOIZF2nSLEpCl3/J4GSRsW6Vm4pnhrGHNwqvGVOog65SYpkbWTj7SAu/d7dxoTfESxb5oMU8t9A2smcJpwoPq4+8m3yfoaEsldGv8K98SK+7buW+Xwkve5VyYIhf1eCR+G4rATcvCYtHAtSK2c+29lTmWDVmIX/eKxgv/xaeztCGidzedB2djw1u7ezOws51UhBb80oiYxwLBE9DVTKmyJ0bLR/yOrY30JjqrvxsAso4hu1hLISD4YtJc6v8i601VvUgzIswAYq0Q9cJgRj7ZcyPzuIlOc71BZzwXht21cpcZ9hvNLDIYlvHYaSoLXL6Z/9j7cCRNK3PusXpmbUVVjx9DRPHTU2rsu8+mq4Hq7XK/OJQQRIWkbmd7Bo+Q5GrwljZ04VXwDXUV/sC/097kvAFZhnNXGQMaxkW7HDR8p7t91M4AReZdnMxnXePvNiJHf3rLecGELb7bSSRlmrZYuELS735B64u3YT24CMsTqSLx9DBMRV48ioU0FtFTFAgnnRPcKV2pt6EUatrUgoDdq4BI5/sfAtTTq/BSy8WMLwywVbMm5fkwvif9961iQKoFtPGMOcHN/QBImm/yLFcJoGyvDWV5nlgIFAp0r9Sn0J6/NpuJRyUumNsGv56vIYTWe/6eMW3G8a1rbXUiiXANyAQBkP7TKdNmHCzVl6gRvPvLK58dkZS0EZ7/9uYlH/Cno/Dzn0RQEBLTIf9hS5SMn+pVl5Gd6kgndtK6bG685tznfvy424z+2ylmrSsAT2nzqjTzsvWQ62fPD9BGEzSvCDVALxOEsbNplXPq3NruTqnR
-    learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Basics+/+linspace
-status: Unchecked
-record: -1

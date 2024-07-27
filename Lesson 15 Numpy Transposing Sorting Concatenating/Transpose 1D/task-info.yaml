@@ -6,47 +6,16 @@ files:
       - offset: 69
         length: 41
         placeholder_text: '# Create a 1D array using arange function'
-        initial_state:
-          length: 41
-          offset: 69
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: iI5YxwN3iAhnECD3OHjDaFYuL7WHkQpl8VljIW86svMc7SqQbFGiZBtPrQcd+4AE
       - offset: 115
         length: 51
         placeholder_text: '# Reshape the 1D array so that you can transpose it'
-        initial_state:
-          length: 51
-          offset: 115
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: nqdIfDpaAXAEnxp+u7yp3JGv615vhb0bFR+SR6akCb/piuAV5ETMCxchX5FE1OUf
       - offset: 178
         length: 29
         placeholder_text: '# Return the transposed array'
-        initial_state:
-          length: 29
-          offset: 178
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: RolfkCp8Ky6AvNtV8gVBNw==
-    encrypted_text: rWaGTjF1uCxfAA1JULqDg7Mvb/gzF69ZQvRS6AFgP5NuMGC+VigLKkaw28WhE9LGvyaH39V8uRaBZw2i5IpkbxhPs/ESEN+/DlO0qBTXZ4PWKiRfjGKWjqqbG6AZXfMIgxabarOrbcJanfnjiJoRJWKnoNlu/qkHlay/B1fY1kRRLV8gCM+WEhzkQHRcttXlJzH0RCHnjtBtr45bTCqXGqyKSojadmtCvAwvqHKICDRE+r1Iot9HVKCB5cm/KiRXe/taGf5Pqo6lx8Ojr1IOkZx/Ng55uWjsD3GMhwCFQ8LzS5G4HF2zu1WcMbCwfgGvbQIi2MX8TYhQDLEDVgsymjAAApfy0zJLkq50HfozbrEwJ7txy+TqzExEyMZPDoDQHTUxh+M7WdWTfOWkc6Ga6K/yrw/gxo5QrBq5eKHYrUQ=
-    learner_created: false
   - name: tests/test_task.py
     visible: false
-    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SLWceOU1rSb/sBdLY0y1/ybXEyx50rEV5GAetW1bQsOtajk3aO1uMQ+0Va7LFHq0qowpjBo+j4Q0u3g4ANJyEZTDn+SvRnuSbH6PoCyfXN2wwzBT0M9ceKgO+jVQG5TcwPuHaeF2RWj2q3d6yRyAjlHQGJAhkiNxS5XmbygJocm5tysh8TEX90oWCIAf3pSn4K0AxmbNiRzN5Nn3JY76wVree8KiCJwmzB6Sgx6OkywL41J82dgUSjhzV6rc0QjM7YjVQQWN+IXU2dfAHGh+JTzY2a9Hw40M7ez28qsgjr84Hb/6iiGzeq+qP67pU8OmGgHoPD+476CaHSFVTQmGfgDBC1XMwZdyjTyA5lB9bneHx9VOy35mqhR76Nkln795j5Uyk80mLZNPp2UePMtg2I5XE6Wc3Enkvqy/ELK0F00GN+8wfIF67OOdIh10fIYxcHZC9+DDp8o9/JJz2yKTfogF9WzkYlcrRQ4X2bia4u8S9BC0Amlu+SGSFAc1fIdc4FsuUz4UO1UOyhgXu3j1F7hu87FtrZnTUVdymLUnu7FXezch2f4ApvL7npmYmQm1tLpEz5sQ3H7gXWxPz9J7U10phwfasPV0YepIP0fP0FjPcQlutL61+LX82kFjzN/2R+uXg1xZKzXS6IxLVa7nBp6DdPelclRb5snCL9RAVatBdOD2WBaPPpK1V8SIlj+5IatGzOMxxOSFxUIIfjwqEGQ04kqEwpCVVcucqqqCaSiC2tQb+KdStCeJY9xdFa2n3SzcQDCe8EAT1S/WVtDq8iEH6YDRNuOww1lmaGKc+1neaEajSmrw1Hdt3e7Qc2mBJR/BqeRqizbJRH93KjTQSB8aR2QCzUHF5s1SnCGk70nqOtY9WYcmt2z2OSdoMW5MpBsLI+zEVz1oh/kVTdKCCCA4kO4A10U/x43yqic3hM29Rqi+wTsc7CLA/xgZWJqoRly4dtpPu3OexoPBRu0VHDE7GcBDgfQpZQ1nPQBVPee4OLRJN5C8KAEBVLk4s15IzCJdOrS3hQYARUhxRBwbvO8jtNsiktrz8T5dPNi3v4WTyoIbqHE+EVAtYrO9UUeLXgn/0N9RSUZXM2XTOPr333
-    learner_created: false
   - name: __init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: tests/__init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Transposing+Sorting+Concatenating+/+Transpose+1D
-status: Unchecked
-record: -1

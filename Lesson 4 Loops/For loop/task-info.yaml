@@ -3,7 +3,7 @@ files:
   - name: for_loop.py
     visible: true
     placeholders:
-      - offset: 238
+      - offset: 243
         length: 20
         placeholder_text: '# Loop over primes to print each of them.'
   - name: tests/test_task.py

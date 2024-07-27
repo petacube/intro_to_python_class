@@ -4,10 +4,10 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 978
+        length: 980
         placeholder_text: ???
       - offset: 0
-        length: 978
+        length: 980
         placeholder_text: ???
   - name: tests/__init__.py
     visible: false

@@ -15,10 +15,22 @@ print(increment_list([1, 2, 3]))
 # shows after you type """ and then press enter
 def sample_function(paramx: int) -> int:
     """
-
+    this sample function takes paramx is does this
     @type paramx: int
     @param paramx:
-    @return:
+    @return: integer value by increasing the argument
+    Example
+    this is how you use my fuynction
+
     """
     paramx =+1
     return paramx
+
+def demo_function(x,y):
+    """
+
+    @param x:
+    @param y:
+    @return:
+    """
+    return x+y

@@ -3,10 +3,10 @@ files:
   - name: open_file.py
     visible: true
     placeholders:
-      - offset: 152
+      - offset: 326
         length: 37
         placeholder_text: '# Open the file input1.txt in read mode using the with statement'
-      - offset: 397
+      - offset: 571
         length: 15
         placeholder_text: '# Close the output file!'
   - name: input.txt

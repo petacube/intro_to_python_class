@@ -6,26 +6,9 @@ files:
       - offset: 58
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 58
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: 0n/OUmrrjkWx19FU0FG0lhxqmtsrKJ4SGNAsaJPLG5s=
-    encrypted_text: LXpX8XC+Yepv0fVMN0dimOESkB9sXo6anJwbwFuI2G0kA35lWyMdvTWN2fUveuPbqCzRJpTQEvQ8KJQRYUwYNOCGAZesvuFf4iOwgc4bN9Za8qKC38Ax7DF0zyUe4jnX5/DeTieo6ijRkVG44ydtieOOteFatnYrz2qaCApl7BA7QRncvmZn95KFNq2DwlJ0EvVjX0d+18HDThS40Q6TBfh3nrwU8Z/jgtE9K+h71vhozPhfRLTewSDstYYz0J9rObLaHOxNuVAFf8rTlU3GvvYdunO7Syh2ukRo0qDDOf0pFVUeAXayeRUFafyu5E68C6K9r8d+jBuVxrr7mhiphut1UwkssZhI7NpxRazaxpVijO2vUK6lOssBsPeH7BSq
-    learner_created: false
   - name: tests/test_task.py
     visible: false
-    encrypted_text: XIlL2u+4gqNTqO7La77YdRw8R9566z7GUrsIh3X/H84KrbCUJmFGkpklWiia7wfDcSd7TDdLIEVb7yd3maTCFrNccM1sJyn10AIywZw515oc5zj2K/nUjk2ufuckP88GiGK2ToUXkyNaDSO/oYgOLpVOaTYdrRCTOVn44g93ryUv8L10/O/kMKIOsyC5hKyfcreVo+AHO0IDIOzGP/bA+9Y3D1LbQX9nRt0BAuYDDZ7TwmAfUiKFXwv+70EBOoUZpXkh04y1qqtCg9uG859EFAtrIJxWr4A6GWYKCwc2kjHDA2qidFL30YEePYhgMHNAag3PDDv5umTgylDrHlzWdbKCnIi4PK0IJZnks3L+IpYOv3aibwf7qhSdjNEWF+F8
-    learner_created: false
   - name: tests/__init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: __init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
-status: Unchecked
-record: -1

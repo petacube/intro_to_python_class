@@ -3,6 +3,7 @@ class MyClass:
 
     def foo(self):  # We'll explain self parameter later
         print("Hello from function foo")
+        print(self.variable)
 
 
 # `my_object` holds an object of the class "MyClass" that contains

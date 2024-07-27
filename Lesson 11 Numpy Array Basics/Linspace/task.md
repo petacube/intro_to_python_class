@@ -1,4 +1,6 @@
 ## Linspace
+from math import sin
+
 
 ### Task
 Complete the implementation of the function `sine_array()`:

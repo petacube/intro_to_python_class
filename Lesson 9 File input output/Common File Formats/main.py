@@ -22,20 +22,25 @@ with open('data.txt', 'r') as file:
     print("\nText Data:")
     print(data)
 
+import json
 # Read JSON (JavaScript Object Notation)
-with open('data.json', 'r') as file:
+with open(r'C:\Users\stani\Downloads\electric_cars.json', 'r') as file:
     data = json.load(file)
-    print("\nJSON Data:")
-    print(data)
+    #print("\nJSON Data:")
+    #print(data)
 
 # Read HTML (Hypertext Markup Language)
-with open('index.html', 'r') as file:
+with open(r'C:\Users\stani\Downloads\Home - Federal Reserve Bank of Boston.html', 'r') as file:
     soup = BeautifulSoup(file, 'html.parser')
     print("\nHTML Data:")
     print(soup.get_text())
+    from lxml import etree
+    dom = etree.HTML(str(soup))
+    dom.xpath('//*[@id="main-content"]/div[1]/div/div/div[2]/div/div[1]/div[2]/div/h2/a/text()')
 
 # Read Excel (Office Documents)
-workbook = openpyxl.load_workbook('data.xlsx')
+import openpyxl
+workbook = openpyxl.load_workbook(r'C:\Users\stani\Downloads\FoodImports.xlsx')
 sheet = workbook.active
 print("\nExcel Data:")
 for row in sheet.iter_rows(values_only=True):

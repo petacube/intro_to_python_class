@@ -6,41 +6,15 @@ files:
       - offset: 19
         length: 20
         placeholder_text: '# Add an import here'
-        initial_state:
-          length: 20
-          offset: 19
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: IZcrWjtBYzyb85cNtyRpRQ==
       - offset: 199
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 199
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: d17Bpy8hjmlAs75wKXrG9YNVHG+yjiw9Z9Sy4DLbfmLgzFJ7p15e9nKQoJH3QTQ2LMMSrlSSm6lFBhezBPXXIxpVoOIzhplVKMOFYqGHA1bqYiRH5kiu4EZ25UyncraskJkDcFGNK2g12SwIVZE3F/L8F+2CvLINXPOQPCt7N70=
-    encrypted_text: rWaGTjF1uCxfAA1JULqDg3CyrbCaMzV6yr7ZnGuWsjgqb3+YuOMSrjSSB3lwgSGlwExgJIFP9kkhtwbu0K6MT8MOs9ew/3VPftFNzadsYZ3Lj0hXFnVdTAT5vMlALnDMNmt972j7OKIV4guxkENkzLUcuNQQANPWFgm45s1jWe0/yf2aztCZKPs/+mBtFJg39De1Khjp8o5iYnfWP9xd23S95mGMM6pohFk0j3epau4FNT1W5YvnkTVoChqOzjCsV5cZliNJXsNoLBd//NYQ4sEITo/11wIcOcjBr9hM8ajh0R4gdzwxiKOCKDR32W1pKE77zPPC8Pv96WEEWVaohL3vSmH5DP7b+Hj7K/LBLqU6szyo8LduC8SwUs6y36G3nBfzk6z2JdOorMJJ8p4CCjOat83MjCEZQUoKjZnszew=
-    learner_created: false
   - name: tests/test_task.py
     visible: false
-    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1RDubxGFCzSWn7tP6bV5FbTelLj3SD4TmkeVE1T0U9quGtMvgCcK0DU915pRLiSnuhgdyfQpb2Mkejym9CjcQId/KvwIQ55u8Jl7ZKIpCkIFuwwS3ycSHV6/UOF9M+MscjDWDDmWZIPw0kmrk3uKRrfbQYYGKXQv4U5MrnIY931xIBcaHQi6rtw5/nRo9bxppocHbNl9/dRzWKZOtm4fNr50kNvYxdH0v8syGOVyB2n/NttWkJe3HKVIm+5MrM4WiMJNVcBHgvxWhkW6cg2N3Scjd3mBgnlOCt102egW5qtV3CcGtlIiLhCahAIgng7YIv1yT4jmJ90nO7dC00rLfBVn/ozP5HkL0z3jVH2uakyKNXyDdapMiOHCkIqubFqiaonL2s3Ed9i3yzR6oaL/YDiLMorKRJdd+/UL0UDbCTfYiod73fXDCmg0jJTj6LZ8hOb1Q7sL3lkkOwoNphDVWcO5Hw+dgNz5yk166V6eVvE0bXD4TGaz6AmI/mHpMLKol8gWUfQtq4+723A2bR7u8vJ8TnMlax9i4idLx3mUHTsWk/x//8RfmMEXnN08nnhzxvU3h4ap4zUdoa1mEQqGR+/b/+5Mn8HzNqFJo3WrnZXuC2ArV69ih+WZTtgDSjiGmKrW63rO/BuxCbMHgRNJycuv+oRSgVPng1uY6SdgUGtz+qDodrT5dSQa73UdXjIhfhphglzJ4aWJzyJ46xbd2kej73R++9hP38tmW0UzmYRYlK1NrJf6hlWSKMjk+QeRAsJLLqTNMss3Z90KS5g7bREtpEcl3sRz4kulRpkxD82JQXoapz4nOQWGSRY1oeWuk0/PLDw8piozuWAqG05oKqfpnKv9NGHXlCIIIHFzs93KORnNnuDgncTCLxpt7qhuKo8eRr6ZEqRAvXTveg7mm8r/lCGwRTBix/5z5Km+fLL2a1khQqtDOeMJeKEpphxdaJzldLyFe5ZS1+nZDzEjgNcvxV4sTKlxlSTlWhtMATY25komakmIES6aZ73gSdJ2oJMGwx3gI5YD7yCOiX6f/8J4i0lDVkxMETh1DT7abDYNtlxt1OUtWAfiycMMq0hDQYhX/j9IZ5i4DF7U2ZRWcW30wotiBNNcrO7vS7RpgMGwEyDKaukWa3SWhNzPpACbQZGQEUpuRhu1e0/926UMFvqv6BmBSqODKK42ecju9oO3DUjNpPh6mbetNWlUJckWshhWUtXh+L50vAjce6MWgfYwBdSVK28lHcOTxFdhN+4zkEKl5UTxYS+Bo1srZIOHeZeGLQmo8VPDq6D4gZ42Z52wn/tvo7slXcqeLVVEgfrLP2LyZ36KzgJ2b7YgSiHNLcNtJ7ELqSaNyM5eUSvH+ix5vB39e9hSi58gFJ4kl5AhmkMqvn9p8+uq2bjTJgsPlSOOycGTtUA8OCKRsu/bCEn9tqooVE9FL0OpbaIO4okXUcgyh4GpcbbEun0iGQM8Qti4ND+6YZindbJpsv9JsjIl8GBvDRPFwhG5OqOMcObESRbPLczdBWB0OZxIb1EEGA3VPmJ3cfE8htmD39Q2lfbd60juZdN45XgfkI0g3wh/U821BLvDktKel0/sT4ekPgwLN8B2vRCFTRknVpxmgF71FV8fEWnZBV6ad1PuzCtBRL+dlr64zYkJSX5mCR5Z36aNJ34Rx8ZddSIgxtFSc5hwFaq1XQN6xfpJ+lHgPqfhdtegkmeyeKT5qyT1C+CwD5Y1QkmtlzdjFYPWn2lar9pLWIwZ9i5XlxejYa4KM5rbdm2reG83Ag283xxKIVUbmMzjuEK5Uva2IBk7QDdO7PX258vmbVuX5dLw7tL+dYaEOI7vqDaMkIzJ+xcCvN3DWUMImXwTP+mqNiyFv5ZXCqkyD4pATZdUOnSuwVlXEO+2GoOht//ahdk/jkAJIubKJw=
-    learner_created: false
   - name: __init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: tests/__init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: text.txt
     visible: true
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Arrays+of+String+and+Unicode+Values+/+Translate
-status: Unchecked
-record: -1

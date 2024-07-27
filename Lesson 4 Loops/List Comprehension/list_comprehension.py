@@ -7,5 +7,5 @@ for i in starting_numbers:
 print(my_inefficient_list)
 
 
-my_efficient_list = [i + 10 for i in my_inefficient_list]
+my_efficient_list = [[i + 10, i*10] for i in my_inefficient_list]
 print(my_efficient_list)

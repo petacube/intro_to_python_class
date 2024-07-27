@@ -1,7 +1,5 @@
 type: theory
 files:
-  - name: main.py
-    visible: true
   - name: __init__.py
     visible: false
   - name: reg_expr.py

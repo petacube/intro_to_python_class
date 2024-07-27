@@ -9,8 +9,8 @@ print(multiply_by(3))  # Call function using default values for parameters b and
 print(multiply_by(a=7))  # Call function using default values for parameters b and c
 
 
-def hello(subject, name="John"):
-    print(f"Hello {subject}! My name is {name}")
+def hello(subject, last_name, name="John"):
+    print(f"Hello {subject}! My name is {last_name} {name}")
 
 
 hello("PyCharm", "Jane")  # Call "hello" function with "PyCharm as a subject parameter and "Jane" as a name

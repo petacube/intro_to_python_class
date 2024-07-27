@@ -6,47 +6,16 @@ files:
       - offset: 147
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 147
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: h7bACT/WIrr+o6sogOJdRg==
       - offset: 203
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 203
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: bCzybKpENYdR9olXiBlegS8r7xBGj4Fomsq5hySOTpM=
       - offset: 215
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 215
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: ru8YcBFg7OdS834qFR9tr6K4b60N2CnXNzD0huqEKhpNqsbhLAiXadI3caO7i2vX
-    encrypted_text: rWaGTjF1uCxfAA1JULqDg9hXxqcXMUqKrusgcXDnzKH+MCUR4Sd94JlzZkk6XmHNMMiNkjKb4x1ckb/cEecyJErVU5C/WNAk4hfgQWj+tFI7FhFD7hzFMybp9PkYO9xdrcFZ++CZfJr7/dD1EaDVF+n0IE+0a78GRvvWlrd1ugXbOyNhyV9FCzDijIe3MEAvn3byOOyez53s0bvQ6G2aLy2KtHpn1AEbYAPrDnXjP1mxffRlNHrZrCzz6xREES2cfSzY+uQCN1AhpgCxgjkt13mRXzmN+t1JLifpjOZNFxsv1+bYfGGN+HquUwVSV/uKLuV2NO51CIrkJ9dda8rGOKE//uL0p8PUIWkz7xUEfYOc5SmnVLsjkQ/Eq7MhW7j2qriZa2MnPdsYERUCJfluZg==
-    learner_created: false
   - name: tests/test_task.py
     visible: false
-    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SQBRqOmMK4fWCM+s5FPPvW2vtgSyAEEScTTOOkRSBiUgXRNtJ9e9I6iHP0PO7EyPiMgnDxtpJGNSK/VQDBwHPQIt6wITbJpJOyqnG4gdiSZ/oD2+XDsHT6MIlPHe9Mxy3l2V9MKK2jVEdUaN+Yur7m+Fgj7EsmTgMPxBSMQ0I2vEiFTmyZ3uV83XGSTYYAlyjt/g78drHXms2B7pdANiMrB94TpFhAg5LV4ENCCrT53XtC/Bc+S7z5xf9e2pC3oHJqu0kCT4hYUA68Y9McK/tzPe4BhIMo5P4Mm29F/oB6fbMb9/MGe1UCp+fUnBYdo8zzu9qopPhX0+H0LIwnklmkspY6ZKrwUaHsK0rxCZxAPdYiuSkBU7vmXnSrRiFXYsBcVhig94T08QeXor8GnKz8W3Nm7J8uvMnjmPlQsgLIwtShqeffGWrhEJeNdgNEMHFDwtVb7V+mdjdRuK0/Xjwstv2JaxeUbBydgG/gCitfZ545IMD1NKZC2G8hEJ6n38qo/ZOXI3dvW/Lu/ZFIiY7VWw+Te9A+qHtuki5yF8BTtXI5T2xBgjbmhdelVnRlwARkowleLDBUUAt1ymETRKN93WUi4nmMRuroX4dihpkT3S1LqxSWrWmuXgR09lEksqYLy5N6HLi3vg/I+eIny9VqvjUO6C6jUtb3goKH3lBGUwByVGxl2EK0gD4LRNNyJd60MeoA0uhilPPYq1NvNNimGstyRixxSOu2zhJ2ozzxR+EmK1T4ytd0aH8NiVKNK9CT+TqLZhhlB4kNpcI84UFvHpL5zjYwIMbONAXtEIE43fJZfHNX/w6vkxgvxIS9aU5cZwz3cM0jv+M0sqYnZYrLdnwYbZVbh8VPjC0MbYRxhe8Qfs6v+A0d/AXE1OCFrPI=
-    learner_created: false
   - name: __init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: tests/__init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Transposing+Sorting+Concatenating+/+Transpose
-status: Unchecked
-record: -1

@@ -7,37 +7,13 @@ files:
       - offset: 52
         length: 30
         placeholder_text: "# TODO: create a boolean array"
-        initial_state:
-          length: 30
-          offset: 52
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: ig1mPv5gGkijBPi0X5j+5w==
       - offset: 98
         length: 31
         placeholder_text: "# TODO: use it as a filter/mask"
-        initial_state:
-          length: 31
-          offset: 98
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: dQDfPZ2/X4G3jHBt0o2qRQ==
-    encrypted_text: rWaGTjF1uCxfAA1JULqDgz1p0e2RO9+c7Zxv/O5tkjm+jtX1048Jll/w/WeAs7WeNpUS5pQUlvrBVklSu6AZL2rb5nE5ViUK2ticy0QE2d08blGAsYkQMr5mDIMVBhDdWeJ8xRVoEQz2GMEJL2r1+D9f5+sjhGmT6nzZeXKcUsDFq8BauLns5/Mr95kz21068JrSfd72BeC4qg8emVLpGpxF//n8tjlsuh3EDBaQxF2SDlWrassJI0JR/GS/grv6
-    learner_created: false
   - name: tests/test_task.py
     visible: false
-    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SQBRqOmMK4fWCM+s5FPPvWXzqDi3M0Q71C0bqQHwtHBao+JdvOtGTpDWnFwoEfno83GhjrFBq7xnum+Rs58PewPX0JtV5yPb4+lOJSLYWFosonOK1Gj/LD2sFIg6BglZGk3K6mm1g2gggzq8bBmFLJ3l11NyBPNpZWh9sd6KUwOYJSRjA48IzgelXUTNBxxp4cK4Bc2tPuFM5JrW33ZBK2uhyCgUzEHO75mPNiVfmx+6jjlZl3ypBvr1TFMJPAkhUhpgIxehwK6mlykydO0RUUSqgxMcT07HNb3C2A/zQfAPx8xD94bp2knUgPu11antbZRFWOeaeJDeTiGDJwzVMWOCwZMugn01wk4AUYTwltlQwqks+yIxuVawhYwi3K1hry9roIa5gs3bVt90pUC1JX+y57prxksWrZYK7PCcAFKlLuVA6zxhyssvtmjeP2KVi4M0cl6XDMokPi4DbtYU7mWjYh9GBX+GrsK0Km19B9VLpm2No+ZuKQROEQCTpIl2/tZ6FZnoWHqHuf8UGnP/E4LcRaRe2jTFdD0D5e4H7kbZupvmyW1wLDZLBl34/Kpm4+VEpQsmWqsZXBOA/KmW9dChaKC+fsto1S1OAugEYrP5iAw4u1NUPVrk36g6njhU3RQ5uZPitN+mmJBXZglgSxXfGVvx93m8hMypzS2EpKNbXkeJ/juj6hO9FtUAGt2Cw=
-    learner_created: false
   - name: __init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: tests/__init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Compare+Search+/+Compare+with+scalar
-status: Unchecked
-record: -1

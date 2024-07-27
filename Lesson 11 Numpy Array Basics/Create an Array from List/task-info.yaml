@@ -6,27 +6,10 @@ files:
       - offset: 226
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 226
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: S0qSf8lsNvKfLaqBVnh9vQ==
-    encrypted_text: rWaGTjF1uCxfAA1JULqDg0JRrLJs3CEZOzNReyi5aIKjCibSbCBFdAe9DpNqrymA8m7XX3BSjkXsgFnwyxRVEt/+aIBfIAwFZgkm0Y0XPEn8sk0YCaJ8wTFIUyZxcTFhn8mHyeG1+nV2dE4lokSKljX0dOhTr0oAbHuqSD4SRaCMsdNlWhfNZa3/3VBUms8ic2w5nMrXDqg6ExVpcBoodW/dSsMX6zzrzj8pfBL2xlMepxwUBmf04TiovLib+y4Kh87EHvYXdBy+QKr6WWYMg1d44yicFFf7kg/X12dt4OZGWbc3Gb2o0s46FziMyE4ufxPTWtbvWpyXauFu+P4NxmE4g7d6Fv8G1dLLRnddMQStCAUE3ecZxOJ4CZDwfOjdErAEPNmOrLpigF5w9si9i8Iq747rZCDgCHqS4pSQDFHScUOlco7UqocPtfKbDyikCknIXjqTFZasoRatqKbuwQ==
-    learner_created: false
   - name: tests/test_task.py
     visible: false
-    encrypted_text: XIlL2u+4gqNTqO7La77YdQTjn1YHMq4gonGgZk0sm4cXHCiZ4Ym9cn8mC0eV5+2gpTcNxj3oVtyYCWGQ2vUf0XYQO4SoVubVsb1EqUGOYsie0kcIWVwcf2+8+NgtF7SGAm1CXRqMUXmpKGWAFzYvWqxR9jAyxjYMF7qWTiOU59FUxmjLuVoxFYGquQ6mUndNt9YOB89b88x7TSeRRFR/fep5dM0nz7v2aQes/XOgkcJAkBrmkkCaFRzOc3EfYl354hG4b0Cr5sgf8LumFL+GofBwq+HA5ZKtyLJkfJZ8PcaAFPdwBXSIbJRznmHNyAZN0RuDLqrxDnkYKQW7B0MzIpjG5CxKvH7OPtSSUzyuCakbtLtInMNFI7EI4UCjniZynz3JU/De7Zg3REK8MTfVxg==
-    learner_created: false
   - name: tests/__init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: __init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Basics+/+Create+Array+from+List
-status: Unchecked
-record: -1

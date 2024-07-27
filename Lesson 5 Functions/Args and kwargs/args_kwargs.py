@@ -1,3 +1,8 @@
+import numpy as np
+import pandas as pd
+import polars as pl
+
+
 def random_dialogue(place, *args, **kwargs):
     print("-- Do you know how to get to the", place, "?")
     print("-- I'm sorry, I am not from here, no idea about the", place)
@@ -35,3 +40,12 @@ phrases = ['It is too fat.', 'You are feeding your cat too much.']
 keywords = {'state': 'fat', 'action': 'eat', 'breed': 'Maine Coon'}
 # Call the cat() function like in example above to print the required output.
 cat('anything', *phrases, **keywords)
+
+def my_abs(val):
+    return np.abs()
+
+def my_date(dt):
+    return pd.Timestamp(dt)
+
+def my_table():
+    pl.DataFrame({"x:1"})

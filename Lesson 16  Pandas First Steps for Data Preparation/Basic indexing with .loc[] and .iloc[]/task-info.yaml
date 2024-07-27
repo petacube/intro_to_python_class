@@ -2,12 +2,5 @@ type: theory
 files:
   - name: task.py
     visible: true
-    encrypted_text: LXpX8XC+Yepv0fVMN0dimIigCPgwlaEhltJc2j645H6u/UjUeRdxgivA7YVuk3V+tQ1FWLBJFqWZcyLL5RBXwXVlM0Z/Z5d4KgvkNqz+QwMY7Jq7TSG2ybi+6taJOCOMs5pVn2YxS95Ntyh042Js9GmBAIN3wKbfaRFrURKgJZ3SDbs1uwMdkNczZH42D4b7KZr3sMey4Ebf07E9BSugMVT3qCRLItnlow9VAs9Q7uHCAe1xjZM3HCOtJPnfYJto3ISr8ojFMiywUOAjFJapH05meCe1lQk8EQYjmCOiFzRyGoO9nKRY/M+paoqDk+/kUAIs0j0SzxkHT4oPmd1a/IPLZA/2mUmJjY5nl3kCtv4=
-    learner_created: false
   - name: __init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
-status: Unchecked
-record: -1
-post_submission_on_open: true

@@ -6,47 +6,16 @@ files:
       - offset: 62
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 62
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: JXoiesDp3B+ixwcsdKDNZSjoYoJAWD/Jz6Q0EMXzhzo=
       - offset: 73
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 73
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: 0DreZE9xzio5DTk6rq3k/Pxay5YZSWw8iapJnnLrcsM=
       - offset: 91
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 91
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: oIOBGwisrkKOrca5bqd1UT+T3BclusPOeTPeGSGtQvl486Fu1OvB1H9OZVcr0heiIe4NxiTGmOyYQBAA+YbjEkXj2v1V3sZkPhxafAl30+w=
-    encrypted_text: rWaGTjF1uCxfAA1JULqDg9vhMsE5DiN0gJcDXv354VItV7Ln0FnETXHbSDMiBjpHmkaTz1Bul6FPR+m1XI2TP6jRXUxFcL2e1X5iariA4XlmwY4DPBEWXSGLtQq+UEZUSHz7tvHbgurixUF6Imx2Yg6uvqN+VLY+0CSlwijTNh9jsslVlDu+7OvEZRIxu5tRzc3mmfHAESbih9TDYGlZcw==
-    learner_created: false
   - name: tests/test_task.py
     visible: false
-    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SQBRqOmMK4fWCM+s5FPPvWx/5Dfc4GfYYlFX88V0WJI2qg59JXfeg55SVSLO1j2flMCYq0TxUW/+QmHqCj2Sp18th/CmitGo5BQWgj49q9WsJUPr5onguuQf9ZxOri4ZZirJbPxT8uTegmyNwsUaC24kP11q0cCp+QWTuk4KDEG5qmm5oIA5VbhHDL2olqb/GX0Ey2uGDSxo4E73awRQAK1BLtZujRePciwaSRR8I0znXZ6PiLyUGGqRMdwsbXPL/nQxQjUL3VVVzx6MP9HF1L3pPLfEH0hwaAzNtbj94LAiA/ddeQcKiWafCh/KHqgO904Z2xSDTcnJn5flnZcBXaVfyU8AJmwXd/+g7D6Mh3GOHkQSeGmiq6bj2fsnvKheRml60DeTnLYgkHQ4CuyfFJy3Db2tjifOaq/npmT5UgGXSdtZu8mjwRHkF89AxBvc3uqz5S5UF8hiNGSO6ijHU64nN94yXpIcrQBhTXWtARsR3m5168Us28WufbXbVlBelbTjxNL5B14PQ17os82DQNqXlmKhsMBK6MgCI1sKY7NOiqqnsx0mkalaVfEKQJp1GMRq7LTVzPyxOJXWwOFKWNzrF1laNF1Kz1MDdcGkfkS8kbEyGe5p4qjmpytFvn9tvHG9qW/FFoMTbwEWyHPqFAhGdjNczLz53cXcaP9CIiokFyXzEd5f3YSdlo0kloej2AP9PAIP813Fc5eaHUWjthUQUcpw62nro0PCjsjPv++Tppk2fzJnuL9wQgI6CQbGLBpQBRMLNb8gT9Fpv3tIpZHEglq8Lczc/hzAu2FWXuCxFnC7qS5iVu8MftxwcyndUyNL8kCgmn0ZT6iw+vkzemaWq9zAbGFDoBhf52+QWT9Fl6GjeRBc2V1KnFEHV9RTLmQ/kGdbXvt66VYVujmmHrxO+x7/icyX1j4yvfkHq9NpxhTe+/7HMWu6rTavT0Bws=
-    learner_created: false
   - name: __init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: tests/__init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Transposing+Sorting+Concatenating+/+Concatenate+and+Stack
-status: Unchecked
-record: -1

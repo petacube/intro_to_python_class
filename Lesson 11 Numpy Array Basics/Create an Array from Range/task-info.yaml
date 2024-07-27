@@ -6,37 +6,13 @@ files:
       - offset: 42
         length: 21
         placeholder_text: '''add parameters here'''
-        initial_state:
-          length: 21
-          offset: 42
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: 5f6mB7Hu/d0GFWOUUtSzBdsWzvlIEO/xZpSiqUMTjsg=
       - offset: 77
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 77
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: NXl+YsS9btlfxGa7AbFzg3bE9eLMrutqlO318Tt18ug=
-    encrypted_text: rWaGTjF1uCxfAA1JULqDgyB1AOsuU/z1toIHJYJvfJgSiioXp5Fjny3yK3y8CcTBjPeercfCnHtORkwFMv9wXlNiBCvnhv8OULGWDV6EYhjaW8XpRdgLtWpBgmeDu9DMK6yzyzIjs/Eukll/FY4N6gs5GO2lEPf80aN3gTJ89uW7kr20t2+OHEQuMPdEVFGQM3lOm4XQAxKL1vxoAdfAzvoKf/Hgp8XigPG14WBj8F6GReNY2yPbMWEb1PS9Mposz8EyV9LVuFgH5gVpeZIR5t4b58LDPVyaUr4QGx8nVM37Q9Aet6IEQ72XCjJIPvcxxNa6XgNxUAxHH9x4XLekJNWU5DeYfjrQFlwB07/rd3rVpXX/YIiCoZqsAxeP6zMkxbMAOVY+QXDyfaoJoVhFFBGH7Y6yCpMimsE0oKBeQx1dOWiXUFOF7sAoAo+hHBrNeGu5tT7MhtQpFNTxFtfkWA==
-    learner_created: false
   - name: tests/test_task.py
     visible: false
-    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SLWceOU1rSb/sBdLY0y1/ysOLrmhgb/FyJKf8YXIU/QICko8U97EvGrBRfQVSgK/Fk5BeBGK+MllWdoFr/MWFZcww93oc87F7eO1Ht8ohkGqx9/6eddNrnK/gdL1omW3pvW/RFzKqhssZpz+uamE4GC2o/h/wl7MRiXRHluT19tGLLUzvYIXGzjI9NrTS1ZWqupNXfEz80aXOFD2oFqLFvVZF6uxQUzN83Ek2QT7mkGyYXeBNe5h+207AuxNTn8Hf9NF+rfNJw8sDNAA7AdzgQNaQ18YjVvvqPcx5pA5TMmkD8JS1v9i17CcZ4kjPJDgtuEEDPRFIxhGj6WWbW+BMOoYksoScQVzO00DFh1CNxbDzxS/nof2TU15CZdSseLOidF2kqu1r11fSmoqVqy97Z+0TQKKTDoYmrxKCV83eQ2sy7dHJBi0tilFogLJEnpO7jKX5CQ0vcMMMCIMdvzGdBdE5RR4+9/u439Njwmcm5rdHYPJz36PsJPkmCWyBdZXv2n+qKvlsefnp/d6Nh+OC+yLrGIj8vCqUGK5XXRVVOYFV8paQaN3J2Z1y2pMMzvVc2G5D+FVhD5xfyCaF3U/vN8Y+kdur6U92rD3WjRNjuaOpXh/WcFC0N5XBE/KQGYLh6nQSZTJS53e6cqjcgxTrVffcCU5a2ST75qm5jmbfyTiyfrRXeh+VryHUxbq+0U8TQcxJCyWT0UT9SiO/T993+Ati7ZaCsJby7zKjFjNRyiTzoqBcF9VyAthIDhyQhv0SWcyutkg3npFr65P/MRNfUfWMM1DRFAmMPqgHyXeI5mmSP2stsbYnJZNRrpSuRPsn1o9gdVxLI9BRRtjTjMN00EWIZasNQNDRF5qpXvFHSf1eBEMblLly20kvpLymy8n8dexeaDWwgn7CjIYTmY/c6c2C67F3WRp1FWpUrVlxgCid0ktfJbL8PPF10e2mrowIHwGtbanbWff+LOrjSVmhhgwdq1ZPA4a/VentFIbTFUtP1bTSPr+r7605m7dhVhRtXDX5dXc6oMtP49kKQMbk8DJiwY+ztW3cpm4v2xsLwpV/K9tO2T2K6rvqeVk9qOvwOecOyaC76LwVREMA9nLM/Qb1Z1NXQndhUPIk9+MTZIpkSrFEqmxgVlwWGXmwFK2z3gx2/nddGLAQ2GNpKloguiqN6VnDh66tvWREAtPDE4rpYX9rEHkpOFNEeY7tMtis=
-    learner_created: false
   - name: tests/__init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: __init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Basics+/+Create+Array+from+Range
-status: Unchecked
-record: -1

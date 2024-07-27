@@ -6,36 +6,12 @@ files:
       - offset: 295
         length: 30
         placeholder_text: '# add ''Month cost'' column here'
-        initial_state:
-          length: 30
-          offset: 295
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: VafyLKjQmYzy+GVulO9V8O7KYiJzfSKcEYeQEWtNiaw=
       - offset: 370
         length: 44
         placeholder_text: '# add ''Annual cost in thousands'' column here'
-        initial_state:
-          length: 44
-          offset: 370
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: AgGkLPcYasH13/TkHkVteH0veDHeMyJdKW60hTwPe04A1a0FACr1qmwUz2DC4makZlCD9QjztlPaZMqBjvHx7A==
-    encrypted_text: LXpX8XC+Yepv0fVMN0dimOESkB9sXo6anJwbwFuI2G0bLyRQ7GvKp3YMpMUbcRerYhGTlj3jNJTapdAK8Qe72Wnp7LgtRSR0ALcZQiLO0Rs/9tV6G13cCTm1pMqOSIIHrORIVRtXEL7xtxLZ+ypoFdROPtPcAfYqudx4M5HlEf+pttNHkDOv4fcavOeK5T0AMnRMCHaWAugCgqfgmfKzdsy4xfP0mNg4Wu8knHH/MW0EjhNM8ISueRLJAKJi7MDqVJCRT8w1PpsPU8+N8ubV/fgND1+1rd2pU4xm9dWSbKgvJPk1ABR2I2deCLynNb2iOXz/1GCS5B2RHy5IozAs9aKW0ovimQUbva1uRniGsNA8gNsDZZmJju5CPn03whjPVgUEyxWjtkDj78DAZxRGBZStUgqba7/DdoQc3MVWb4yc4GKq4zgoa2ACuBCKXOpSjYIy7Z0poqj6LSw9AhzfZo08/HxYccCqVZ1rS1e3RPt3WlIKYRrG4jdeppBj0cfmBQIHnqLgAkSoACxJchi6xzYkl1r8DJUJd3U+Uq3oLzOmr4/nlgUdniUeEi0v1HvfsQcprA8O2r6vTQI6+Yf4wIRIjzWorx/ulubFsXnzB3ZKRCqunXwH+S904N/n1GHqTlYYSiwW611thgldQTusWwxVVZItwDpylqeqNp/3KhcSuQzstSXzO4tNW5KXS54dgm2RWswMXS7ZzVXUNNU5f81kMQK1RPHJ/eaOjs7PF+OB6+vL7Y41OxyRN45A7MezbTf3x0+phVPHMQJ6uhuD2A==
-    learner_created: false
   - name: tests/test_task.py
     visible: false
-    encrypted_text: XIlL2u+4gqNTqO7La77YdWBrq+6SUGuTHdcnuEFqdVFqLzKUMwNSTMcnyB9qmBN66AhNq1m4jdeBw4NizIZS9Y3Lwvb0haTYTgHnF+RhF4K4rb9fgiQBENDsloneLkLyhDpbDPKoWww7mSc01wdTjMkbuOUNJyF0/dJSpr8Sn7K5sBuJHWJUjBKTa66gmVDBsLZ6F7gPhyt7uEJG5J0Jo/r2v31dVyRoI+OzD7oMkrW1GSd45xByot6Gz3GQp6dQ17FtLOFB9dLVQFtCgf1C/T0YaWcOPvXjYUDE3hCI60IzqNK3hlcg+k0fNjHdJMd5k3kJ3RTJEcl8u8HBElO+0pnOJoSur59K+SDktnMMtXEINkYfwiVwVWWBUnfAhXmNniDfvn1KK32/IBq5BB51iMBSKn1gjJmokab9CwH84QTuS7azjyszuNMEc1x07neEr17k8rnOBA2I/VD/mQkr93Ca5RrYc5XBOr+xYzmMQo7ApJZ8qZ8r93OMAdT5ZmJaNSo+UTjn79FvgKtJzwN7xLfMKZXsNEiAWeJxp06/GKLn3Rq+btknRqfLMShe8u2VQeVnxCY+J1gzV2CkmcWOpMPPV0FtzPPVp4UEt0t6pswV1MyDXg0FCjOb6vpISiRdg4PzzLS9nZxuDz5czI2boDCmT3jY044Rna6wyE8J85oIRxzD6c5x5Suw79bJoLsab+dUJojEpDF0gYv9Vqqrktzv9WnAerUadk7HY9hpWOcf7K5j1lPKLRHcNIB0WpxugI0ekW4jmt1BTPD3TdK2H7yfAe77fR7MzmLb41HKcXjy6dgPN0K9sONiHhiJEdX6rK7uyIRJa9WyOsk4fAxfrxUj2pbjohcDUtA+8J0BFj/xu65/Bo6rtIMa7Ytu7T7990svczu2zWD4iRgg+OmM+P+PK0KEc9SLwhwD3RqZ5Qh/LxfHAEfw1xLqywDiMyynsxYgYnVktHAe/00q0ApnkKDFxBMpvK17YL66W+iH+nDMUvf1wbvT9DnEF1eCgvye+hdbc891c1JBA4hGQMDx5oTk9Wq6QdRnLGpAIjbLpNWXeJVJ9iLfR/FevROo97ql5P8WW/rwI2j2PtVcHKLqHjuk2x2+hKu9OFDyKdwBghIZVaAhEplMeCyCmir6omgETLZ1ZcXhDneyEn3i544qkaaK7Iib2La50tBXLhMN0QQ=
-    learner_created: false
   - name: tests/__init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: __init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
-status: Unchecked
-record: -1

@@ -33,7 +33,7 @@ def factorial(x):
 
 
 # change the value for a different result
-num = 7
+num = 10
 
 # to take input from the user
 # num = int(input("Enter a number: "))

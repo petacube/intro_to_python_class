@@ -6,67 +6,22 @@ files:
       - offset: 63
         length: 42
         placeholder_text: "# TODO: use a 1-D numpy array for indexing"
-        initial_state:
-          length: 42
-          offset: 63
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: RdieXdkOlUI2yGllARaV9ZLgYoaNbioZZokMMb8Hs9k=
       - offset: 110
         length: 42
         placeholder_text: "# TODO: use a 2-D numpy array for indexing"
-        initial_state:
-          length: 42
-          offset: 110
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: Fan4xryrRzy2d490L/AB7tRXNsLRWiFG5p0W4/ma1gJgDCwW+RtgF38cDlo0Qih5DMOVNXldSkaKNJMx33bF5g==
       - offset: 159
         length: 42
         placeholder_text: "# TODO: use a 1-D numpy array for indexing"
-        initial_state:
-          length: 42
-          offset: 159
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: ilUMfH50JXmPBHDMDbftdc9FefYKaZYlWGpWamVcdQM=
       - offset: 206
         length: 39
         placeholder_text: "# TODO: use two 1-D arrays for indexing"
-        initial_state:
-          length: 39
-          offset: 206
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: ilUMfH50JXmPBHDMDbftdZ04Gx/YlVQ8s3Rh5a+wIDD8+aVHCXyeDsAgDdRIBqwp
       - offset: 250
         length: 55
         placeholder_text: "# TODO: use a 1-D numpy array and a scalar for indexing"
-        initial_state:
-          length: 55
-          offset: 250
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: ES9sWRG2VjVbi2Hn/MWmYgfCV4AaJ+CIsrJpuSOOCgw=
-    encrypted_text: rWaGTjF1uCxfAA1JULqDg6VrEdDWWdvPNw/qNKBtttFLZCw2HOgHKDfND8KJpydWlB2glKDWhKWi7yE9AMNEZ/XaOMCTNbBWN9Bo6MLl7aED+OGlSqNC3yEOHU6mcQXED4DgiZrcVMZKin2w+AESvru0H0MLIH/2cghmVuWphjDdb0cIZ2/qKoEEHG1gkw36MrkH2RgeRpACthMCdVdB+EUKftfP6A8bh7Fjmo7Gb8DdJTDWait/8dtTsKcCgBCAJVtpxi00hH+FcR4YC1ox9Gkm+mUOwCVS4DT5f45PZTZyWwxoeV3MbccTBXesyjljsqd2dSVaGt1NuXZpC6g/l+QujUimtUEutTuf+g6FE1E0EUOOKq+1uRNCl+DK6z8wNffs7nPdUvA3yhtm5b3slHh1u+qsyw2fk5IlKZV73utUppMIYPTo3/1RKkybzca9mwnRiw68DSnRbZJSYMXc265oe9lmRhf8Qt5/pS0HiAVgoFmhFTw5xb9uZ36zQqlVwS+d+qk5JfjtkzRKwJvVmCF8w/vd7cwRA5ofaNrMh2xwWPf+ajRHz/j/BRmttYGEf86bF/tJtH7cvGHzrLtoPdXH9nHxxJDcf0bpbUKdMV3tyIYM4k1zOkvYy9ZBYXbI
-    learner_created: false
   - name: tests/test_task.py
     visible: false
-    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SQBRqOmMK4fWCM+s5FPPvWTsF1H4wq16kyQy3FgAfjHpaYja5ChWi6iXyrmuCn83eyTWKsFQMjOZ7N+wRlIHGFLNTYqvakDS40elycxiWeF4LcmXZrtCcAJc2oRs9fl0wPH/cVENoGiXiztqgzS87UtLBOCUENSKX3lH2xSgAiJIToEDRxLZmAr+1Zw011sJwvsHxtUOCZ4+XzJ8jwhlARHOC36sCsuAukhJWpePYgshbdamUyEuT4tBA9+NZYPuLFfMJNps0Ow8tq2jCsrGzz00q5ZmUp48PxCVMraP4r9E0ryJo5kY5DzeGZVYDIVwD8Ktu+DwAVrwbCKA12MjV3Lo/WKW8DMG4ounGD85/J6er1k9YO6VlOBMcj7qpU/TbDeJxTHiVpxyef1E/V35NwTeR/UeLnBFhwMoLM2EzPozpB5hLWgpjY7jo+V8uq0nVXbUIpqgRN4xsdAqMv7CvgJMpMWxbHzguvHXkB77UhLrEFlL9ww5gD23t3L4ajYO5WayHO0zJyVfWWZ+pU8PZ+I0m4OIedgp0nUZfnfyj6VsONnIcSYvPEuwPGJ1tP691EidW0zhDA+8ts7HzXHXsHPOQRd5NVYLRB6K6hHBQwpCyaAEtkV2pqPVxMi73yiu68rlD3IXPh3bSGv4y/HykDBiOaEFwUaUTFFd+Th3OA3iOblGvXFApn8qcCn1cHulidTbgUxsRtZHdFjH3UbP4VZVIxwUPAEmQ8CdahjkSlg/E9ILxscxUzbY/NwU8hxiUzp16Ux6aVFX6DZoHnVKxSIO2XZetMPQQYwDPetx8cbe+7bcz2EwmSwmrvEFbk9dHWvF6Z/rQ8QIsIVsRiVrCITWNe5N0YTryJQQ+fJcrSqCdr17SnVyiiL0MhHbg8BibDffnLrkmdO099mRVPjoI+ponN5i9Orjafl53ZuB/G2fYNrsMtK1x5S3FBnkSL3Q+C+CSBLtMhrxbP5gjBFWEiIxCCSQC+DLA4fd41Tuj0iUuE5NIy5fG8+PtivJOXbqY7Msfojr1yLazOPExJvl4SI8T+c3/qLuYne2Gj7urDdo0MZlmCoJApk9vtT+z+6flCXYinLrHr7CfNun9JzF+fOht/zWDyt6mHtpmn/qaV52Qi9Ip6AtenGqYfVf7roV+nS4LXluwD7DusLKB2saBimcxcgg1AHzxvhhYRojw07ZnmzoRV+SiQbPG/HmGLlnWPrcIpga1Pxqthmmf+ulN3oBrPvbP0B1Q4JHDE+Yth0WpsqZf4wezVuyEci0PFEKunrLh/aINYqpWk1h1I/nljd00knehnTWoq/D7e43sxD3QJ6Np/+fIFZSuQji02VEBysQHFP0wGowjR1PGKG1mdfjDTV/m7uNvhqOyxLvFzgoZWZqUgGMnHl0ZI2WxXfMx6VGRK/BDzgXtTsVJ+odSQy4Kbi84/KR2F7acfVP/UVVM+wGhhgzrBgsFfKannk6FSrCb08tsvH+Ijvj/+2jznmW7YMYXjPUc/ped6VS56hAGZ8qtM8X9E38FSmxGFpOuhZKmuvA7gslmHI5SZJgMcqdIpXK7W0n0w/NStZ8gz161gmigKmo0n5lvL7eBRi2fKlUXMPTUQnFYJABV0LuUU48NOvKR6NYd6n3eddxXgQY0BhTciXdDtolx3vi080KH61TqDMEOsT5gW3oCxwiE2iKD7zqINWWrBwr2tRnqfuF/xFarzB5QglSC3vJtoziZVWfQtpPhHWJRqIK3U2ccFLiY9hVba/KtlNdZitQK0taOPYLXiNMRiEHa5mIjR/og=
-    learner_created: false
   - name: __init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: tests/__init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Indexing+and+Slicing+/+Integer+Array+Indexing
-status: Unchecked
-record: -1

@@ -6,37 +6,13 @@ files:
       - offset: 170
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 170
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: G/wK5WkGlODD7ulymsvgog==
       - offset: 280
         length: 6
         placeholder_text: '# TODO'
-        initial_state:
-          length: 6
-          offset: 280
-        initialized_from_dependency: false
-        selected: false
-        status: Unchecked
-        encrypted_possible_answer: 0Du4j+8Zxh9HZjOsbESDnfcp68JdzXZO8OrnA68qCfo=
-    encrypted_text: rWaGTjF1uCxfAA1JULqDg6VrEdDWWdvPNw/qNKBtttHDwxfbMDyPUZ1Hhl/KqSDfa4CaiY58v6Mm6GWOoeIZpV1j4Aoa3FysWE91ObGjs9eampD1JY5zxc5lZ1X2H8xzVK7O8p95mtpE3jdcKJEVUYpyGp0q34U0o1M5veLOT/Ewo5x9Ht8GbsWJD3DlkKCpFznElZRTWI7BDaMeGnBmIsgO5kie9Lco7SQe5FouclQg9peaHdD1zL0h3Hat6x7fLUR8iRNXonR4Il258cl6VEhKFHbBJ4Lx66RwxCqztCWYdTCauGUKQxHL0SbSUihoCpKV+gad4QTF1QLTG4EpQLjiMbJC4jHz8vjOcJ9u/pJvgKthQP9bsFnbPxdkcDvSQnqaJXw+cDAoO9t5UizzKlBVrz2rTlg8FH4ECZDBthIgpUViB1V0t1FJM2CeoaqA/XCxKOcR1NOOGgKDHN+/cbCEBqWt4vDauvqT59pmZpPolL5BUMHxIoPc4PXj2+K6tii0+dycVxpmdsQmOUih2pNYbqdo6y/l2BYSd40SeXs=
-    learner_created: false
   - name: tests/test_task.py
     visible: false
-    encrypted_text: XIlL2u+4gqNTqO7La77YdRynr5SKXsUjVOXfwEVQY1SQBRqOmMK4fWCM+s5FPPvWhaybAlhWkLT+WqBBD0F7e7L8meXfhXyKRwlr9zkTFTW2AcvWSI9KyYZJ7B3iEh8+/NAKm1vXV8j1KvLit4VG2PF5Xle5deebZj+zXQW1X+TRkqMOPI+1gBKimW0lSGCAb2sB5La2eL97uhwoNMXezV1i/bWL6iFISI52eYnIAQZhTkw/SwdSoPNfcKhOGi6F12BAIX1s6wHbVEJwqS+qnFLinXyOP4AtfCERZGULXJjleAeWv9iYzmg6vJeweKGWZ6iEUgztCGjHI4alv9H4MiE0TbiRWSLcjlgq9DddvJg7MCglYoRiHgeRVCmzXI7iXhlCy8EQZszheBEk3TDx+mre/AUqa6CSldiWAaCkEw7EquDhksNqBT3OdLcs1laIbIIArAWp4S6OJ7I+Lurj0meHD/L9yVveyr1yFns103QpMFplsX93Os1BvDVF9ixTomfGn6QP94f3U0VQXLDEQlTanZnec3Ap0Rgo2o8ZR4gZSH5CYV0WqrT9mRQQ9hbj6dAKkBCsW2vpjtrclQ2SxXVUUd08NxPgPAZGdnRVxpP+F1SU+CoASqensS5IAkwpF8vxKC9Ijv9uuESVnnjT6ZrzUW+bx1ApKXyoOFlTQtU5PWvHFY1u0jJmbl/oer3VYOet+fmCcN2bmvFb6S62Oy7sePsBK1if5UdgSoTQOlPXNWQeFoDxJs355FfMgFHS9OdYqDVnGNQR2XH81+NzX7DL0JA6sHDm8tctVJSikNfB8ky5pw/eJLcmjjLo5LN+M0FuOWjEQyiUXHxez8dxKECKDW0HB2lUhwD+d7IqdUA2akYsOYkS96WRgU8jJQv2k+nJ/kFZe5to9gm5bcod1/MnOJDIBv/5TPm0N6j9GFMxDm5Tx3KHcq9qTghuJrMK16c5GBJXOWlexc4jsOez6IP9lGXXPkOgz8PT4tZ/d8Mhq37mQuac9JhwRM5q/M7/d1ou4j51ca5y3Y7EM8IEnWHFnw72Gj+QIETUjVbJttP8GiLFHJBhW5jy1kZPjnGoDlu6t8KT2UmF1fwlQA87XBDbPPMk2yRiAGaOEpYBcbeAikqyGvVU89Mzku3dYbwN8yKz4oiuwuxR7t+1gEheMjq7dW78DQBedShWMZq5/FtmQ8czLmPejV0jvKFvCQ7FkJisUBU74Z6+sdTk1lYFaw==
-    learner_created: false
   - name: __init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
   - name: tests/__init__.py
     visible: false
-    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-    learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Transposing+Sorting+Concatenating+/+Split
-status: Unchecked
-record: -1

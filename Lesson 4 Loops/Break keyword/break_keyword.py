@@ -5,7 +5,7 @@ while True:  # This condition cannot possibly be false
     count += 1
     if count >= 5:
         break           # Exit loop if count >= 5
-
+print("got control after break")
 
 zoo = ["lion", "tiger", "elephant", "giraffe", "python"]
 while True:                         # This condition cannot possibly be false

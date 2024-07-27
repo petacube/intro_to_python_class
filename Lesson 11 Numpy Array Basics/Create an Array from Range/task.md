@@ -37,3 +37,70 @@ Output:
 Implement the function `array_from_range` that returns an array of integers or floats
 from a supplied range. The code in the `main` block should help you figure out what parameters 
 to define.
+
+### apply function to array
+import numpy as np
+x = np.array([1, 2, 3, 4, 5])
+f = lambda x: x ** 2
+squares = f(x)
+
+### use sine function to apply 
+from math import sin
+sin_vectorized = np.vectorized(sin)
+sin_val = sin_vectorized(x)
+
+
+### use linspace to visualize sin
+
+# visualize sigmoid
+def sigmoid(x):
+    val=1/(1+math.exp(-1*x))
+    return val
+
+numbers = np.linspace(-10,10,100)
+sigmoid_val = np.tanh(numbers)
+import matplotlib.pyplot as plt
+plt.plot(numbers,sigmoid_val)
+plt.show()
+
+### visualize sigmoid
+numbers = np.linspace(-10,10,100)
+sigmoid_vectorized = np.vectorize(sigmoid)
+sigmoid_val = sigmoid_vectorized(numbers)
+import matplotlib.pyplot as plt
+plt.plot(numbers,sigmoid_val)
+plt.show()
+
+### implement activation functions
+from here https://en.wikipedia.org/wiki/Activation_function
+
+def identity(x):
+    return x
+
+def binary_step(x):
+    if x<0:
+        return 0
+    else:
+        return 1
+
+def soboleva(a,b,c,d,x):
+    return ((exp(a*x) -exp(-b*x))/(exp(c*x) + exp(-d*x)))
+
+def relu(x):
+    if x<=0: 
+        return 0
+    else:
+        return x
+
+def softmax(x_arr):
+    
+
+def maxout(x_arr):
+    max_index = np.argmax(x_arr)
+    for j in range(len(x_arr)):
+        if j == max_index:
+            yield 1
+        else:
+            yield 0
+
+    
