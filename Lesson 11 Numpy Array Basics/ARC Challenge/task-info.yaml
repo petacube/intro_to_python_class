@@ -1,0 +1,720 @@
+type: theory
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
+  - name: arc_challenge.py
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/aab50785.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/99306f82.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ea959feb.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ce039d91.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/aee291af.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e0fb7511.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c8b7cc0f.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d017b73f.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/94414823.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/96a8c0cd.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/cfb2ce5a.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/fea12743.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/baf41dbf.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c074846d.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/917bccba.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/bf89d739.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9b2a60aa.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e99362f0.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f0afb749.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c62e2108.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ad7e01d0.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/dd2401ed.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f3e62deb.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/94133066.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/fb791726.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f4081712.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c35c1b4c.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f0df5ff0.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ba9d41b8.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/93c31fbe.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c1990cce.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/be03b35f.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/af24b4cc.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e21a174a.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/df8cc377.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d37a1ef5.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d94c3b52.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/dc2e9a9d.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/cad67732.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e78887d1.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/bc4146bd.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9356391f.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e345f17b.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e88171ec.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d282b262.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/bf32578f.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/b9630600.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/da2b0fe3.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e66aafb8.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d4b1c2b1.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e133d23d.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9a4bb226.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e681b708.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/a59b95c0.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e7639916.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e7a25a18.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/b7999b51.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/92e50de0.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/fc754716.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f3b10344.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e633a9e5.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e9ac8c9e.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f21745ec.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/bb52a14b.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e7b06bea.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9c56f360.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/de493100.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/bcb3040b.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/b457fec5.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e6de6e8f.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/aa300dc3.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9c1e755f.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ed98d772.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d4c90558.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/a934301b.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ae58858e.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/97239e3d.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f3cdc58f.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9def23fe.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/cf133acc.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/93b4f4b3.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/a04b2602.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ce8d95cc.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/dc2aa30b.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c64f1187.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/981571dc.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ca8f78db.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/b0722778.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ca8de6ea.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d492a647.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/aa4ec2a5.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e5c44e8f.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c663677b.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9b4c17c4.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d56f2372.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/b4a43f3b.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c92b942c.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e74e1818.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e69241bd.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/b942fd60.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/bbb1b8b6.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/bf699163.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d5c634a2.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e95e3d8e.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c7d4e6ad.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/cd3c21df.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d304284e.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c48954c1.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e5790162.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d19f7514.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/903d1b4a.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f83cb3f6.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/b15fca0b.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/a8610ef7.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/fafd9572.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/b1fc8b8e.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/cb227835.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ea9794b1.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e4075551.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d931c21c.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9f27f097.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/a3f84088.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f5aa3634.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f9a67cb5.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/963f59bc.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ac3e2b04.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/992798f6.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/fd4b2b02.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d47aa2ff.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e760a62e.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/bd14c3bf.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ef26cbf6.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e872b94a.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f45f5ca7.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ecaa0ec1.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/af22c60d.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e9b4f6fc.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9bebae7a.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ac2e8ecf.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c87289bb.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c658a4bd.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ac0c5833.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e2092e0c.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c3202e5a.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/95a58926.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ed74f2f2.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9772c176.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f9d67f8b.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/94be5b80.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9b365c51.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/b7fb29bc.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/b20f7c8b.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/b7f8a4d8.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e1baa8a4.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9caba7c3.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e9bb6954.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/aa18de87.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9ddd00f0.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/a406ac07.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/d2acf2cb.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c97c0139.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f8be4b64.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/fd096ab6.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/9110e3c5.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f823c43c.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ff72ca3e.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/b0f4d537.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/a57f2f04.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/fe9372f3.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/8fbca751.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e1d2900e.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e619ca6e.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ccd554ac.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e41c6fd3.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e57337a4.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/929ab4e9.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e9c9d9a1.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/a096bf4d.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/a680ac02.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/b7cb93ac.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/e7dd8335.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/ac605cbb.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/90347967.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/c6e1b8da.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/da515329.json
+    visible: true
+  - name: ARC-AGI-master/data/evaluation/f5c89df1.json
+    visible: true
+  - name: ARC-AGI-master/data/training/fcc82909.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ce4f8723.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a699fb00.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e40b9e2f.json
+    visible: true
+  - name: ARC-AGI-master/data/training/beb8660c.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a2fd1cf0.json
+    visible: true
+  - name: ARC-AGI-master/data/training/eb5a1d5d.json
+    visible: true
+  - name: ARC-AGI-master/data/training/bdad9b1f.json
+    visible: true
+  - name: ARC-AGI-master/data/training/af902bf9.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a1570a43.json
+    visible: true
+  - name: ARC-AGI-master/data/training/cdecee7f.json
+    visible: true
+  - name: ARC-AGI-master/data/training/f76d97a5.json
+    visible: true
+  - name: ARC-AGI-master/data/training/f15e1fac.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b0c4d837.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ed36ccf7.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ce9e57f2.json
+    visible: true
+  - name: ARC-AGI-master/data/training/cf98881b.json
+    visible: true
+  - name: ARC-AGI-master/data/training/f9012d9b.json
+    visible: true
+  - name: ARC-AGI-master/data/training/f8ff0b80.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ba97ae07.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b1948b0a.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d90796e8.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d037b0a7.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d13f3404.json
+    visible: true
+  - name: ARC-AGI-master/data/training/feca6190.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ce602527.json
+    visible: true
+  - name: ARC-AGI-master/data/training/c0f76784.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d22278a0.json
+    visible: true
+  - name: ARC-AGI-master/data/training/9af7a82c.json
+    visible: true
+  - name: ARC-AGI-master/data/training/bd4472b8.json
+    visible: true
+  - name: ARC-AGI-master/data/training/f8a8fe49.json
+    visible: true
+  - name: ARC-AGI-master/data/training/f25ffba3.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d89b689b.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a3df8b1e.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a61ba2ce.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a9f96cdd.json
+    visible: true
+  - name: ARC-AGI-master/data/training/de1cd16c.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d9f24cd1.json
+    visible: true
+  - name: ARC-AGI-master/data/training/bc1d5164.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a78176bb.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b9b7f026.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b548a754.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a64e4611.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a68b268e.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ae4f1146.json
+    visible: true
+  - name: ARC-AGI-master/data/training/dc433765.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ea786f4a.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b527c5c6.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ff805c23.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e9614598.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a740d043.json
+    visible: true
+  - name: ARC-AGI-master/data/training/9edfc990.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ddf7fa4f.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d511f180.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d4a91cb9.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d06dbe63.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b782dc8a.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e8593010.json
+    visible: true
+  - name: ARC-AGI-master/data/training/f25fbde4.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e76a88a6.json
+    visible: true
+  - name: ARC-AGI-master/data/training/cce03e0d.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d0f5fe59.json
+    visible: true
+  - name: ARC-AGI-master/data/training/dae9d2b5.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ded97339.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d6ad076f.json
+    visible: true
+  - name: ARC-AGI-master/data/training/db93a21d.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b6afb2da.json
+    visible: true
+  - name: ARC-AGI-master/data/training/f8c80d96.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a416b8f3.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ff28f65a.json
+    visible: true
+  - name: ARC-AGI-master/data/training/c3e719e8.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e26a3af2.json
+    visible: true
+  - name: ARC-AGI-master/data/training/aba27056.json
+    visible: true
+  - name: ARC-AGI-master/data/training/c59eb873.json
+    visible: true
+  - name: ARC-AGI-master/data/training/c9f8e694.json
+    visible: true
+  - name: ARC-AGI-master/data/training/aedd82e4.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b60334d2.json
+    visible: true
+  - name: ARC-AGI-master/data/training/c909285e.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a5313dff.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e3497940.json
+    visible: true
+  - name: ARC-AGI-master/data/training/c8f0f002.json
+    visible: true
+  - name: ARC-AGI-master/data/training/97a05b5b.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ce22a75a.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e8dc4411.json
+    visible: true
+  - name: ARC-AGI-master/data/training/c1d99e64.json
+    visible: true
+  - name: ARC-AGI-master/data/training/c3f564a4.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b190f7f5.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d2abd087.json
+    visible: true
+  - name: ARC-AGI-master/data/training/c9e6f938.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d406998b.json
+    visible: true
+  - name: ARC-AGI-master/data/training/fafffa47.json
+    visible: true
+  - name: ARC-AGI-master/data/training/bb43febb.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e73095fd.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b94a9452.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e179c5f4.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ef135b50.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ac0a08a4.json
+    visible: true
+  - name: ARC-AGI-master/data/training/caa06a1f.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ae3edfdc.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b8cdaf2b.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a8c38be5.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a3325580.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b27ca6d3.json
+    visible: true
+  - name: ARC-AGI-master/data/training/9aec4887.json
+    visible: true
+  - name: ARC-AGI-master/data/training/db3e9e38.json
+    visible: true
+  - name: ARC-AGI-master/data/training/dbc1a6ce.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e6721834.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b2862040.json
+    visible: true
+  - name: ARC-AGI-master/data/training/9f236235.json
+    visible: true
+  - name: ARC-AGI-master/data/training/dc1df850.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b7249182.json
+    visible: true
+  - name: ARC-AGI-master/data/training/f2829549.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d631b094.json
+    visible: true
+  - name: ARC-AGI-master/data/training/eb281b96.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e50d258f.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ea32f347.json
+    visible: true
+  - name: ARC-AGI-master/data/training/9dfd6313.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d10ecb37.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b8825c91.json
+    visible: true
+  - name: ARC-AGI-master/data/training/9d9215db.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ecdecbb3.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d07ae81c.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d5d6de2d.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e48d4e1a.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a8d7556c.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e5062a87.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d23f8c26.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a65b410d.json
+    visible: true
+  - name: ARC-AGI-master/data/training/995c5fa3.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d4f3cd78.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e509e548.json
+    visible: true
+  - name: ARC-AGI-master/data/training/f1cefba8.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e21d9049.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a5f85a15.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a61f2674.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b775ac94.json
+    visible: true
+  - name: ARC-AGI-master/data/training/dc0a314f.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e98196ab.json
+    visible: true
+  - name: ARC-AGI-master/data/training/e9afcf9a.json
+    visible: true
+  - name: ARC-AGI-master/data/training/be94b721.json
+    visible: true
+  - name: ARC-AGI-master/data/training/99fa7670.json
+    visible: true
+  - name: ARC-AGI-master/data/training/98cf29f8.json
+    visible: true
+  - name: ARC-AGI-master/data/training/aabf363d.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d8c310e9.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b230c067.json
+    visible: true
+  - name: ARC-AGI-master/data/training/99b1bc43.json
+    visible: true
+  - name: ARC-AGI-master/data/training/b91ae062.json
+    visible: true
+  - name: ARC-AGI-master/data/training/f35d900a.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d4469b4b.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a79310a0.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a85d4709.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d43fd935.json
+    visible: true
+  - name: ARC-AGI-master/data/training/f5b8619d.json
+    visible: true
+  - name: ARC-AGI-master/data/training/f8b3ba0a.json
+    visible: true
+  - name: ARC-AGI-master/data/training/9ecd008a.json
+    visible: true
+  - name: ARC-AGI-master/data/training/bbc9ae5d.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d9fac9be.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ec883f72.json
+    visible: true
+  - name: ARC-AGI-master/data/training/c8cbb738.json
+    visible: true
+  - name: ARC-AGI-master/data/training/c444b776.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d364b489.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a87f7484.json
+    visible: true
+  - name: ARC-AGI-master/data/training/fcb5c309.json
+    visible: true
+  - name: ARC-AGI-master/data/training/ba26e723.json
+    visible: true
+  - name: ARC-AGI-master/data/training/a48eeaf7.json
+    visible: true
+  - name: ARC-AGI-master/data/training/d687bc17.json
+    visible: true
+  - name: ARC-AGI-master/data/training/bda2d7a6.json
+    visible: true
+  - name: ARC-AGI-master/data/training/cbded52d.json
+    visible: true
+  - name: color_mgmt.py
+    visible: true
+  - name: arc_challenge_utils.py
+    visible: true
