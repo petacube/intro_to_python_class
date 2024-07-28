@@ -1,25 +1,11 @@
 type: edu
 files:
-  - name: task.py
-    visible: true
-    placeholders:
-      - offset: 143
-        length: 3
-        placeholder_text: '# TODO'
-      - offset: 160
-        length: 4
-        placeholder_text: '# TODO'
-      - offset: 200
-        length: 3196
-        placeholder_text: '# TODO'
   - name: tests/test_task.py
     visible: false
   - name: tests/__init__.py
     visible: false
   - name: __init__.py
     visible: false
-  - name: electric_cars_title.csv
-    visible: true
-  - name: bmw_i3.csv
+  - name: analyze_random_variable.py
     visible: true
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Basics+/+Random+Sampling
