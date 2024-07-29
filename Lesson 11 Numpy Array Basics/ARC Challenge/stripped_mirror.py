@@ -42,7 +42,7 @@ file_to_concept_map = {"containment":"00d62c1b.json",
                        "stripped_mirror":"0a938d79.json"
                        }
 
-json_files = list(filter(lambda x: file_to_concept_map['containment'] in x,json_files))
+json_files = list(filter(lambda x: file_to_concept_map['stripped_mirror'] in x,json_files))
 
 for json_file in json_files:
     data = js.load(open(json_file,"r"))
@@ -52,23 +52,26 @@ for json_file in json_files:
         if case_number >0:
             input=train_sample['input']
             output = train_sample['output']
-            input_arr = np.array(input).flatten().reshape(len(input),len(input))
-            output_arr = np.array(output).flatten().reshape(len(input), len(input))
+            num_rows = len(input)
+            num_columns = len(input[0])
+            input_arr = np.array(input).flatten().reshape((num_rows,num_columns))
+            output_arr = np.array(output).flatten().reshape((num_rows,num_columns))
 
             # basic solution
             # define a concept of cell containment
 
             #always display input first
-            visualize_array(input_arr)
+            visualize_array(input_arr,custom_colormap="gnuplot")
 
 
-            computed_output = apply_concept(input_arr)
+            computed_output = apply_stripped_mirror(input_arr)
             if  np.array_equal(computed_output, output_arr):
                 print("matches!!")
             else:
                 print("wrong answer")
-                visualize_array(input_arr)
-                visualize_array(output)
-                visualize_array(computed_output)
+                visualize_array(input_arr,custom_colormap="gnuplot")
+                visualize_array(output,custom_colormap="gnuplot")
+                visualize_array(computed_output,custom_colormap="gnuplot")
+                pass
 
 

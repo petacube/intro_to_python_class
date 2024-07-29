@@ -718,3 +718,5 @@ files:
     visible: true
   - name: arc_challenge_utils.py
     visible: true
+  - name: stripped_mirror.py
+    visible: true

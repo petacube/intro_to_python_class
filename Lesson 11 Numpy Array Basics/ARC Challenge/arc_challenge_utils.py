@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolor
 import copy
 import glob
-
+from math import ceil
 from color_mgmt import *
 def compute_slab_distance(slab,direction):
     condition = lambda x: x ==  color_to_num_map['green']
@@ -143,3 +143,44 @@ def apply_concept(in_window,debug=False):
                         out_window[i,j] = color_to_num_map['yellow']
 
     return out_window
+
+def apply_stripped_mirror(in_window,debug=False):
+    colored_cells_pos=[]
+    out_window = np.zeros(in_window.shape)
+    #scan
+    i_max, j_max = in_window.shape
+    for i in range(i_max):
+        for j in range(j_max):
+            if in_window[i,j] != 0:
+                # copy
+                colored_cells_pos.append((i,j,in_window[i,j]))
+
+    horizontal_distance = abs(colored_cells_pos[0][1] - colored_cells_pos[1][1])
+    vertical_distance = abs(colored_cells_pos[0][0] - colored_cells_pos[1][0])
+
+    for i,j,color in colored_cells_pos:
+        if (i == 0):
+            #mirror horizontally
+            num_stripes = ceil((j_max-j)/(2*horizontal_distance))
+            for k in range(num_stripes):
+                next_pos = j + k*2*horizontal_distance
+                out_window[:,next_pos] = color
+        elif (i == i_max-1):
+            num_stripes = ceil((j_max-j)/(2*horizontal_distance))
+            for k in range(num_stripes):
+                next_pos = j + k*2*horizontal_distance
+                out_window[:,next_pos] = color
+        elif (j == 0):
+              num_stripes = ceil((i_max-i)/(2*vertical_distance))
+              for k in range(num_stripes):
+                    next_pos = i + k*2*vertical_distance
+                    out_window[next_pos,:] = color
+        elif (j==j_max-1):
+             num_stripes = ceil((i_max-i)/(2*vertical_distance))
+             for k in range(num_stripes):
+                    next_pos = i + k*2*vertical_distance
+                    out_window[next_pos,:] = color
+    return out_window
+
+
+
