@@ -720,3 +720,11 @@ files:
     visible: true
   - name: stripped_mirror.py
     visible: true
+  - name: minority_report.py
+    visible: true
+  - name: stop_sign.py
+    visible: true
+  - name: color_mapper.py
+    visible: true
+  - name: restore_mosaic.py
+    visible: true

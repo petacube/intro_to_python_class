@@ -67,6 +67,9 @@ for json_file in json_files:
             computed_output = apply_stripped_mirror(input_arr)
             if  np.array_equal(computed_output, output_arr):
                 print("matches!!")
+                visualize_array(input_arr,custom_colormap="gnuplot")
+                visualize_array(output,custom_colormap="gnuplot")
+                visualize_array(computed_output,custom_colormap="gnuplot")
             else:
                 print("wrong answer")
                 visualize_array(input_arr,custom_colormap="gnuplot")

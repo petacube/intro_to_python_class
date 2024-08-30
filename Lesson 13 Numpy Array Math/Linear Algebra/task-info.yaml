@@ -22,4 +22,30 @@ files:
     visible: false
   - name: data.csv
     visible: true
+  - name: matrix_mul.png
+    visible: true
+  - name: transpose.png
+    visible: true
+  - name: transpose_example.png
+    visible: true
+  - name: determinant.png
+    visible: true
+  - name: determinant_formula.png
+    visible: true
+  - name: inverse_matrix.png
+    visible: true
+  - name: inverse_matrix_example.png
+    visible: true
+  - name: eigenvalues.png
+    visible: true
+  - name: eigenvalues_example.png
+    visible: true
+  - name: linear_equations.png
+    visible: true
+  - name: solving_linear_equation1.png
+    visible: true
+  - name: linear_equations_example2.png
+    visible: true
+  - name: multivariable_regression.png
+    visible: true
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Math+/+Linear+Algebra

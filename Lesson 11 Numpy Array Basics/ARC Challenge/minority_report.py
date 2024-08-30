@@ -39,10 +39,11 @@ training_path = r"ARC-AGI-master\data\training"
 json_files = glob.glob(os.path.join(training_path, "*.json"))
 # we only know one concept - containment - we will add more concepts
 file_to_concept_map = {"containment":"00d62c1b.json",
-                       "stripped_mirror":"0a938d79.json"
+                       "stripped_mirror":"0a938d79.json",
+                       "minority_report":"0b148d64.json"
                        }
 
-json_files = list(filter(lambda x: file_to_concept_map['containment'] in x,json_files))
+json_files = list(filter(lambda x: file_to_concept_map['minority_report'] in x,json_files))
 
 for json_file in json_files:
     data = js.load(open(json_file,"r"))
@@ -52,23 +53,46 @@ for json_file in json_files:
         if case_number >0:
             input=train_sample['input']
             output = train_sample['output']
-            input_arr = np.array(input).flatten().reshape(len(input),len(input))
-            output_arr = np.array(output).flatten().reshape(len(input), len(input))
+            num_rows_input = len(input)
+            num_columns_input = len(input[0])
+            num_rows_output = len(output)
+            num_columns_output = len(output[0])
+            input_arr = np.array(input).flatten().reshape((num_rows_input,num_columns_input))
+            output_arr = np.array(output).flatten().reshape((num_rows_output,num_columns_output))
 
             # basic solution
             # define a concept of cell containment
 
             #always display input first
-            visualize_array(input_arr)
+            visualize_array(input_arr,custom_colormap="gnuplot")
+            color_stats = dict()
+            def scan_color(x):
+                # dont count black
+                if x ==0:
+                    return
+                else:
+                    if color_stats.get(x) is None:
+                        color_stats[x] = 0
+                    color_stats[x] = color_stats[x] +1
+            sc = np.vectorize(scan_color)
+            sc(input_arr)
+            min_color_freq=min(color_stats.values())
+            color_stats_reverse =  {y: x for x, y in color_stats.items()}
+            min_color = color_stats_reverse[min_color_freq]
+            min_color_cells = np.argwhere(input_arr == min_color)
+            min_i = min(map(lambda x: x[0],min_color_cells))
+            max_i = max(map(lambda x: x[0],min_color_cells))
+            min_j = min(map(lambda x: x[1],min_color_cells))
+            max_j = max(map(lambda x: x[1],min_color_cells))
+            computed_output = input_arr[min_i:max_i+1,min_j:max_j+1]
 
-
-            computed_output = apply_concept(input_arr, debug=True)
             if  np.array_equal(computed_output, output_arr):
                 print("matches!!")
             else:
                 print("wrong answer")
-                visualize_array(input_arr)
-                visualize_array(output)
-                visualize_array(computed_output)
+                visualize_array(input_arr,custom_colormap="gnuplot")
+                visualize_array(output,custom_colormap="gnuplot")
+                visualize_array(computed_output,custom_colormap="gnuplot")
+                pass
 
 

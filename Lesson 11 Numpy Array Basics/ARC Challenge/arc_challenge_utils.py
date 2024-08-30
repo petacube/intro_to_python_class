@@ -182,5 +182,89 @@ def apply_stripped_mirror(in_window,debug=False):
                     out_window[next_pos,:] = color
     return out_window
 
+def detect_clump_boundary(in_window,i_min,j_min, i_max, j_max):
+    # the boundary can be
+    # on top and right
+    # on top and left
+    # on bottom and right
+    # on bottom and left
+    if ((in_window[i_max+1,j_min:j_max].sum() == 0) and
+        (in_window[i_min:i_max,j_max+1].sum() == 0)):
+        return "bottom_left"
+    elif ((in_window[i_max+1,j_min:j_max].sum() == 0) and
+        (in_window[i_min:i_max,j_min+1].sum() == 0)):
+        return "bottom_right"
+    elif ((in_window[i_min+1,j_min:j_max].sum() == 0) and
+        (in_window[i_min:i_max,j_min+1].sum() == 0)):
+        return "top_left"
+    elif ((in_window[i_min+1,j_min:j_max].sum() == 0) and
+        (in_window[i_min:i_max,j_min+1].sum() == 0)):
+        return "top_right"
+    else:
+        return None
+
+def detect_min_clump(in_window):
+    """
+    a min clump is  structure surronded on two sides by boundary
+    @param in_window:
+    @return:
+    """
+    """
+    clump list is triple i_min,j_min, i_max, j_max, color
+    """
+    clump_list=[]
+    i_min=0
+    i_max=0
+    j_min=0
+    j_max=0
+
+    num_rows, num_columns = in_window.shape
+    max_k = max(num_rows,num_columns)
+    for k in range(max_k):
+        result = detect_clump_boundary(in_window, 0,0,k,k)
+        if result is not None:
+            print(f"detected clump for pos {0},{0} to {k},{k}")
+            break
+
+
+
+def apply_minority_report(in_window,debug=False):
+    colored_cells_pos=[]
+    out_window = np.zeros(in_window.shape)
+    #scan
+    i_max, j_max = in_window.shape
+    for i in range(i_max):
+        for j in range(j_max):
+            if in_window[i,j] != 0:
+                # copy
+                colored_cells_pos.append((i,j,in_window[i,j]))
+
+    horizontal_distance = abs(colored_cells_pos[0][1] - colored_cells_pos[1][1])
+    vertical_distance = abs(colored_cells_pos[0][0] - colored_cells_pos[1][0])
+
+    for i,j,color in colored_cells_pos:
+        if (i == 0):
+            #mirror horizontally
+            num_stripes = ceil((j_max-j)/(2*horizontal_distance))
+            for k in range(num_stripes):
+                next_pos = j + k*2*horizontal_distance
+                out_window[:,next_pos] = color
+        elif (i == i_max-1):
+            num_stripes = ceil((j_max-j)/(2*horizontal_distance))
+            for k in range(num_stripes):
+                next_pos = j + k*2*horizontal_distance
+                out_window[:,next_pos] = color
+        elif (j == 0):
+              num_stripes = ceil((i_max-i)/(2*vertical_distance))
+              for k in range(num_stripes):
+                    next_pos = i + k*2*vertical_distance
+                    out_window[next_pos,:] = color
+        elif (j==j_max-1):
+             num_stripes = ceil((i_max-i)/(2*vertical_distance))
+             for k in range(num_stripes):
+                    next_pos = i + k*2*vertical_distance
+                    out_window[next_pos,:] = color
+    return out_window
+
 
 

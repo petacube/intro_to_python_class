@@ -39,10 +39,16 @@ training_path = r"ARC-AGI-master\data\training"
 json_files = glob.glob(os.path.join(training_path, "*.json"))
 # we only know one concept - containment - we will add more concepts
 file_to_concept_map = {"containment":"00d62c1b.json",
-                       "stripped_mirror":"0a938d79.json"
+                       "stripped_mirror":"0a938d79.json",
+                       "minority_report":"0b148d64.json",
+                       "stop_sign":"0ca9ddb6.json",
+                       "color_map":"0d3d703e.json"
                        }
 
-json_files = list(filter(lambda x: file_to_concept_map['containment'] in x,json_files))
+
+color_map = dict()
+
+json_files = list(filter(lambda x: file_to_concept_map['color_map'] in x,json_files))
 
 for json_file in json_files:
     data = js.load(open(json_file,"r"))
@@ -52,8 +58,12 @@ for json_file in json_files:
         if case_number >0:
             input=train_sample['input']
             output = train_sample['output']
-            input_arr = np.array(input).flatten().reshape(len(input),len(input))
-            output_arr = np.array(output).flatten().reshape(len(input), len(input))
+            num_rows_input = len(input)
+            num_columns_input = len(input[0])
+            num_rows_output = len(output)
+            num_columns_output = len(output[0])
+            input_arr = np.array(input).flatten().reshape((num_rows_input,num_columns_input))
+            output_arr = np.array(output).flatten().reshape((num_rows_output,num_columns_output))
 
             # basic solution
             # define a concept of cell containment
@@ -61,14 +71,45 @@ for json_file in json_files:
             #always display input first
             visualize_array(input_arr)
 
+            computed_output = np.zeros(input_arr.shape)
+            # learning phase
+            for i in range(num_rows_input):
+                for j in range(num_columns_input):
+                    color_map[input_arr[i,j]] = output_arr[i,j]
+# use training data
+for json_file in json_files:
+    data = js.load(open(json_file,"r"))
+    case_number =0
+    for train_sample in data['train']:
+        case_number +=1
+        if case_number >0:
+            input=train_sample['input']
+            output = train_sample['output']
+            num_rows_input = len(input)
+            num_columns_input = len(input[0])
+            num_rows_output = len(output)
+            num_columns_output = len(output[0])
+            input_arr = np.array(input).flatten().reshape((num_rows_input,num_columns_input))
+            output_arr = np.array(output).flatten().reshape((num_rows_output,num_columns_output))
 
-            computed_output = apply_concept(input_arr, debug=True)
+            # basic solution
+            # define a concept of cell containment
+
+            #always display input first
+            computed_output = np.zeros(input_arr.shape)
+            # learning phase
+            for i in range(num_rows_input):
+                for j in range(num_columns_input):
+                    computed_output[i,j] = color_map[input_arr[i,j]]
+
+
             if  np.array_equal(computed_output, output_arr):
                 print("matches!!")
             else:
                 print("wrong answer")
                 visualize_array(input_arr)
-                visualize_array(output)
+                visualize_array(output_arr)
                 visualize_array(computed_output)
+                pass
 
 

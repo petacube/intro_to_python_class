@@ -21,6 +21,7 @@ between each row in matrix A with each column in matrix B.
 
 <figure>
   <img src="img.png" alt="dot" style="width:300px">
+<img src="matrix_mul.png">
 </figure>
 
 One of the ways to calculate the product of two arrays using NumPy is the function [`numpy.dot(a, b)`](https://numpy.org/doc/stable/reference/generated/numpy.dot.html#numpy.dot).
@@ -48,8 +49,8 @@ function (shorthand: `@`). `matmul` differs from `dot` in two important ways:
 
 For 2D arrays, the behavior is the same:
 ```python
-a = np.array([[1, 1], [2, 2]])
-b = np.array([[0, 10], [0, 10]])
+a = np.array([[1, 2], [3, 4]])
+b = np.array([[4, 5], [6, 7]])
 print(a @ b)
 ```
 Output:
@@ -61,6 +62,113 @@ Output:
 
 Matrix multiplication is arguably the most important and widely used operation in machine learning.
 It is used in linear regression, various kinds of neural networks, and other approaches.
+
+
+<figure>
+  <img src="transpose.png" alt="dot" style="width:300px">
+<img src="transpose_example.png">
+</figure>
+
+```python
+import numpy as np
+A = np.array([[1, 3, 7, 2], 
+[5, 8, -9, 0],
+[6, -7, 11, 12]])
+print("A="); print(A)
+Atr = np.transpose(A)
+print("Transpose of A="); print(Atr)
+B = np.array([[1, 5], 
+[4, 5],
+[3, 2],
+[7, 8]])
+print("B="); print(B)
+Btr = np.transpose(B)
+print("Transpose of B="); print(Btr)
+
+```
+
+<figure>
+  <img src="determinant.png" alt="dot" style="width:300px">
+<img src="determinant_formula.png">
+</figure>
+
+```python
+
+import numpy as np
+import numpy.linalg as la
+A = np.array([[1, 2], 
+[3, 4]])
+Adet = la.det(A)
+print(Adet)
+B = np.array([[-1, 3, 0],
+[2, 1, -5],
+[1, 4, -2]])
+Bdet = la.det(B)
+print(Bdet)
+```
+
+<figure>
+  <img src="inverse_matrix.png" alt="dot" style="width:300px">
+<img src="inverse_matrix_example.png">
+</figure>
+
+
+<figure>
+  <img src="eigenvalues.png" alt="dot" style="width:300px">
+<img src="eigenvalues_example.png">
+</figure>
+
+
+<figure>
+  <img src="linear_equations.png" alt="dot" style="width:300px">
+<img src="solving_linear_equation1.png">
+<img src="linear_equations_example2.png">
+</figure>
+
+
+<figure>
+  <img src="multivariable_regression.png" alt="dot" style="width:300px">
+</figure>
+
+```python
+import csv
+import numpy as np
+
+def readData():
+    X = []
+    y = []
+    with open('Housing.csv') as f:
+        rdr = csv.reader(f)
+        # Skip the header row
+        next(rdr)
+        # Read X and y
+        for line in rdr:
+            xline = [1.0]
+            for s in line[:-1]:
+                xline.append(float(s))
+            X.append(xline)
+            y.append(float(line[-1]))
+    return (X,y)
+
+X0,y0 = readData()
+# Convert all but the last 10 rows of the raw data to numpy arrays
+d = len(X0)-10
+X = np.array(X0[:d])
+y = np.transpose(np.array([y0[:d]]))
+
+# Compute beta
+Xt = np.transpose(X)
+XtX = np.dot(Xt,X)
+Xty = np.dot(Xt,y)
+beta = np.linalg.solve(XtX,Xty)
+print(beta)
+
+# Make predictions for the last 10 rows in the data set
+for data,actual in zip(X0[d:],y0[d:]):
+    x = np.array([data])
+    prediction = np.dot(x,beta)
+    print('prediction = '+str(prediction[0,0])+' actual = '+str(actual))
+```
 
 ### Task
 A simple [feedforward neural network](https://en.wikipedia.org/wiki/Feedforward_neural_network)
