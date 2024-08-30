@@ -115,6 +115,8 @@ print(Bdet)
 
 <figure>
   <img src="eigenvalues.png" alt="dot" style="width:300px">
+</figure>
+<figure>
 <img src="eigenvalues_example.png">
 </figure>
 
@@ -133,41 +135,45 @@ print(Bdet)
 ```python
 import csv
 import numpy as np
+import pandas as pd
 
-def readData():
-    X = []
-    y = []
-    with open('Housing.csv') as f:
-        rdr = csv.reader(f)
-        # Skip the header row
-        next(rdr)
-        # Read X and y
-        for line in rdr:
-            xline = [1.0]
-            for s in line[:-1]:
-                xline.append(float(s))
-            X.append(xline)
-            y.append(float(line[-1]))
-    return (X,y)
+df = pd.read_csv(r"C:\Users\stani\work\intro_python2\intro_to_python_class\Lesson 13 Numpy Array Math\Linear Algebra\California_Houses.csv")
+num_rows_for_eval = 100
+test_data = df[:-num_rows_for_eval]
+eval_data = df[-num_rows_for_eval:]
 
-X0,y0 = readData()
-# Convert all but the last 10 rows of the raw data to numpy arrays
-d = len(X0)-10
-X = np.array(X0[:d])
-y = np.transpose(np.array([y0[:d]]))
+
+y_test = test_data["Median_House_Value"]
+# skip first column
+x_test_df = test_data[test_data.columns[1:]]
+X_test=x_test_df.to_numpy()
+
+ones_vec = np.ones((X_test.shape[0],1))
+X_test_new = np.concatenate((ones_vec,X_test),axis=1)
 
 # Compute beta
-Xt = np.transpose(X)
-XtX = np.dot(Xt,X)
-Xty = np.dot(Xt,y)
+Xt = np.transpose(X_test_new)
+XtX = np.dot(Xt,X_test_new)
+Xty = np.dot(Xt,y_test)
 beta = np.linalg.solve(XtX,Xty)
 print(beta)
 
 # Make predictions for the last 10 rows in the data set
-for data,actual in zip(X0[d:],y0[d:]):
-    x = np.array([data])
-    prediction = np.dot(x,beta)
-    print('prediction = '+str(prediction[0,0])+' actual = '+str(actual))
+number_of_bad = 0
+for idx, row in eval_data.iterrows():
+         x_eval_df = row[row.index[1:]]
+         X_eval=x_eval_df.to_numpy()
+         X_eval_new = np.concatenate((np.ones((1,)),X_eval))
+         prediction = np.dot(X_eval_new,beta)
+         actual = row["Median_House_Value"]
+         error = 100*abs(actual - prediction)/actual
+         if error >20:
+             error_quality = "BAD"
+             number_of_bad +=1
+         else:
+            error_quality = "GOOD"
+         print(f'prediction = {prediction} actual = {actual} error {error} quality_of_prediction {error_quality}')
+print(f"number of bad {number_of_bad}")
 ```
 
 ### Task
