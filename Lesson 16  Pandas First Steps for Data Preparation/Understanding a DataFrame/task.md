@@ -59,3 +59,12 @@ Output:
 ### Alternate constructors
 
 If necessary, you can use other similar constructors to create DataFrames, such as [DataFrame.from_dict](http://pandas.pydata.org/docs/reference/api/pandas.DataFrame.from_dict.html#pandas.DataFrame.from_dict) or [DataFrame.from_records](http://pandas.pydata.org/docs/reference/api/pandas.DataFrame.from_records.html#pandas.DataFrame.from_records). These, as well as other options, are detailed in the [pandas documentation](http://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html).
+```python
+# from dict
+df = pd.DataFrame({'a':[1,2,3],'b':[4,5,6]})
+df
+
+# from tuples
+df = pd.DataFrame([[1,2,3],[4,5,6]],columns=["a","b","c"])
+df
+```

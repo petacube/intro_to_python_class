@@ -6,3 +6,5 @@ files:
     visible: false
   - name: execute.svg
     visible: true
+  - name: NVDA.csv
+    visible: true
