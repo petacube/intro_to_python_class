@@ -28,6 +28,7 @@ Output:
 You should use the indexing operator `[]` to select columns, perform boolean indexing, or slice rows.
 
 ```python
+df = pd.DataFrame(data)
 column_age = df['Age']  # Select a single column, the result is Series
 print(column_age)
 ```
@@ -72,12 +73,28 @@ Keep in mind that applying the `[]` operator directly on a DataFrame is primaril
 rows_age_gt_30 = df[df['Age'] > 30]  # Select rows where the values in column 'Age' are greater than 30
 
 print(rows_age_gt_30)
+
+
 ```
 Output:
 ```text
       Name  Age    City
 2  Charlie   35  Prague
 3    David   40  Paphos
+
+# multple conditions for filtering
+rows_age_gt_30 = df[(df['Age'] > 30) & (df['City].isin(["Prague"]))]  # Select rows where the values in column 'Age' are greater than 30 and city is Prague
+
+print(rows_age_gt_30)
+
+
+```
+Output:
+```text
+      Name  Age    City
+2  Charlie   35  Prague
+3    David   40  Paphos
+```
 ```
 
 ### Selection by callable
