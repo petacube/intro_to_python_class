@@ -1,0 +1,79 @@
+# tower of hanoi puzzle
+#The object of the game is to move all the disks over to Tower 3 (drag and drop)#. But you cannot place a larger disk onto a smaller disk.
+
+# input number of disks (in pcture its 3)
+
+# idea represet each peg as list []
+# represent disks by number (1,2,3)
+# move of disk is changing the list content
+
+#initial setup
+
+import copy
+peg1=list()
+peg2=list()
+peg3=list()
+peg1 = [3,2,1]
+game_position=[peg1,peg2,peg3]
+
+def game_complete(game_position):
+    if ( (game_position == [[],[],[3,2,1]]) or (game_position == [[],[3,2,1],[]])):
+        return True
+    else:
+        return False
+
+def find_next_move(game_position):
+    next_moves=[]
+    top_positions = list(map(lambda peg: peg[-1] if len(peg) >0 else None,game_position))
+    for source_peg_id, source_value in enumerate(top_positions):
+        for target_peg_id, target_value in enumerate(top_positions):
+            if source_peg_id != target_peg_id:
+                if target_value is None:
+                    possible_move=(source_peg_id, target_peg_id, source_value)
+                    next_moves.append(possible_move)
+                else:
+                    if source_value is None:
+                        continue
+                    elif (target_value -source_value ==1 ):
+                        possible_move=(source_peg_id, target_peg_id, source_value)
+                        next_moves.append(possible_move)
+    return next_moves
+
+def make_move(game_position, move):
+    current_position = copy.deepcopy(game_position)
+    source_peg_id, target_peg_id, source_value = move
+    current_position[target_peg_id].append(source_value)
+    del current_position[source_peg_id][-1]
+    return current_position
+    
+def check_if_position_already_seen(pos_db, proposed_new_position):
+    for pos in pos_db:
+        if pos == proposed_new_position:
+            return True
+    return False
+        
+
+def solve_puzzle(game_position):
+    num_moves=0
+    positions_seen_already=[]
+    # cannot make the move that leads to posiitions already seen
+    while not game_complete(game_position):
+        print(f"Current position {game_position}") 
+        next_moves=find_next_move(game_position)
+        for candidate_move in next_moves:
+            new_position = make_move(game_position, candidate_move)
+            # check if move is acceptable
+            if not check_if_position_already_seen(positions_seen_already,new_position):
+                # accept the move
+                print(f"accepted move {candidate_move}")
+                game_position=new_position
+                positions_seen_already.append(new_position)
+                break
+        
+        num_moves = num_moves +1
+        if num_moves >8:
+            print("Failed to sovle the puzzle")
+            break
+        
+
+solve_puzzle(game_position)
